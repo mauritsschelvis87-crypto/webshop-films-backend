@@ -1,0 +1,3526 @@
+[
+  {
+    "title": "Seven Samurai",
+    "genre": "Action, Drama",
+    "director": "Akira Kurosawa",
+    "country": "Japan",
+    "year": 1954,
+    "runtime": 207,
+    "weight": 150,
+    "type": "4K Ultra HD",
+    "price": 34.50,
+    "imageUrl": "/assets/covers/seven_samurai.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=8V4dEWPJKNk&ab_channel=CRITERION",
+    "aspectRatio": "2.35:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A classic tale of villagers hiring samurai to protect them from bandits.",
+    "brand": { "name": "Criterion Collection" },
+
+    "actors": [
+      { "name": "Toshiro Mifune" },
+      { "name": "Takashi Shimura" }
+    ],
+    "stills": [
+      "/assets/stills/ss1.jpg",
+      "/assets/stills/ss2.jpg",
+      "/assets/stills/ss3.jpg"
+    ]
+  },
+  {
+    "title": "Barry Lyndon",
+    "genre": "Drama, History",
+    "director": "Stanley Kubrick",
+    "country": "UK",
+    "year": 1975,
+    "runtime": 184,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/barry_lyndon.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=E0FWv_sV3IY",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "An aristocratic Irishman tries to climb the social ladder in 18th-century Europe.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Ryan O'Neal" },
+      { "name": "Marisa Berenson" }
+    ],
+    "stills": [
+      "/assets/stills/bl1.jpg",
+      "/assets/stills/bl2.jpg",
+      "/assets/stills/bl3.jpg"
+    ]  },
+  {
+    "title": "The Red Shoes",
+    "genre": "Drama, Music",
+    "director": "Michael Powell & Emeric Pressburger",
+    "country": "UK",
+    "year": 1948,
+    "runtime": 133,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/TheRedShoes.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=uqz3y0xH2PA",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Technicolor",
+    "silent": false,
+    "description": "A ballerina torn between her love and her art in a stunning Technicolor masterpiece.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Moira Shearer" },
+      { "name": "Marius Goring" }
+    ],
+    "stills": [
+      "/assets/stills/rs1.jpg",
+      "/assets/stills/rs2.jpg",
+      "/assets/stills/rs3.jpg"
+    ]  },
+  {
+    "title": "The Rules of the Game",
+    "genre": "Comedy, Drama",
+    "director": "Jean Renoir",
+    "country": "France",
+    "year": 1939,
+    "runtime": 110,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/rules_of_the_game.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=2r0YFQ6n3E0",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A biting satire on French upper-class society before WWII.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Marcel Dalio" },
+      { "name": "Nora Gregor" }
+    ],
+    "stills": [
+      "/assets/stills/totg1.jpg",
+      "/assets/stills/totg2.jpg",
+      "/assets/stills/totg3.jpg"
+    ]  },
+  {
+    "title": "In the Mood for Love",
+    "genre": "Romance, Drama",
+    "director": "Wong Kar Wai",
+    "country": "Hong Kong",
+    "year": 2000,
+    "runtime": 98,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/in_the_mood_for_love.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=fnvMeE3Gh8A",
+    "aspectRatio": "1.85:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "Two neighbors develop a deep, unspoken bond after suspecting their spouses of infidelity.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Tony Leung" },
+      { "name": "Maggie Cheung" }
+    ],
+    "stills": [
+      "/assets/stills/itmfl1.jpg",
+      "/assets/stills/itmfl2.jpg",
+      "/assets/stills/itmfl3.jpg"
+    ]  },
+  {
+    "title": "Andrei Rublev",
+    "genre": "Biography, Drama",
+    "director": "Andrei Tarkovsky",
+    "country": "USSR",
+    "year": 1966,
+    "runtime": 205,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/andrei_rublev.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=RZ3U0k8oCWY",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A poetic portrait of a medieval Russian icon painter.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Anatoliy Solonitsyn" }
+    ],
+    "stills": [
+      "/assets/stills/ar1.jpg",
+      "/assets/stills/ar2.jpg",
+      "/assets/stills/ar3.jpg"
+    ]  },
+  {
+    "title": "Jeanne Dielman",
+    "genre": "Drama",
+    "director": "Chantal Akerman",
+    "country": "Belgium",
+    "year": 1975,
+    "runtime": 201,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/jeanne_dielman.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=Y6kG2cL0YnA",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "An intimate observation of a widow’s daily life unraveling.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Delphine Seyrig" }
+    ],
+    "stills": [
+      "/assets/stills/jd1.jpg",
+      "/assets/stills/jd2.jpg",
+      "/assets/stills/jd3.jpg"
+    ]  },
+  {
+    "title": "Purple Noon",
+    "genre": "Thriller, Crime",
+    "director": "René Clément",
+    "country": "France/Italy",
+    "year": 1960,
+    "runtime": 115,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/purple_noon.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=0ZbxVxzAmVo",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A suave thriller based on Patricia Highsmith’s novel.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Alain Delon" }
+    ],
+    "stills": [
+      "/assets/stills/pn1.jpg",
+      "/assets/stills/pn2.jpg",
+      "/assets/stills/pn3.jpg"
+    ]  },
+  {
+    "title": "On the Waterfront",
+    "genre": "Crime, Drama",
+    "director": "Elia Kazan",
+    "country": "USA",
+    "year": 1954,
+    "runtime": 108,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/on_the_waterfront.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=W-4u6FM5pWU",
+    "aspectRatio": "1.85:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A dockworker struggles against corruption after a friend’s death.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Marlon Brando" }
+    ],
+    "stills": [
+      "/assets/stills/otw1.jpg",
+      "/assets/stills/otw2.jpg",
+      "/assets/stills/otw3.jpg"
+    ]  },
+  {
+    "title": "The Saphead",
+    "genre": "Comedy, Drama",
+    "director": "Herbert Blaché & Winchell Smith",
+    "country": "USA",
+    "year": 1920,
+    "runtime": 77,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/the_saphead.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=kG4e7UCe83A",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "Buster Keaton stars as the bumbling heir of a wealthy family who unexpectedly must take charge of a financial empire.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "Buster Keaton" },
+      { "name": "Carol Holloway" }
+    ],
+    "stills": [
+      "/assets/stills/ts1.jpg",
+      "/assets/stills/ts2.jpg",
+      "/assets/stills/ts3.jpg"
+    ]  },
+  {
+    "title": "The Last Waltz",
+    "genre": "Music Documentary",
+    "director": "Martin Scorsese",
+    "country": "USA",
+    "year": 1978,
+    "runtime": 117,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/the_last_waltz.jpg",
+    "trailerUrl": "",
+    "aspectRatio": "1.85:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "Martin Scorsese’s electrifying documentation of The Band’s farewell concert, featuring legendary guests like Bob Dylan, Joni Mitchell, Neil Young and more.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "The Band" },
+      { "name": "Bob Dylan" },
+      { "name": "Joni Mitchell" }
+    ],
+    "stills": [
+      "/assets/stills/lw1.jpg",
+      "/assets/stills/lw2.jpg",
+      "/assets/stills/lw3.jpg"
+    ]  },
+  {
+    "title": "House",
+    "genre": "Comedy, Fantasy, Horror",
+    "director": "Nobuhiko Obayashi",
+    "country": "Japan",
+    "year": 1977,
+    "runtime": 88,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/house.jpg",
+    "trailerUrl": "",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A surreal, psychedelic tale of a schoolgirl and her six friends besieged by supernatural forces in her aunt’s country home.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "Kimiko Ikegami" },
+      { "name": "Miki Jinbo" },
+      { "name": "Kumiko Oba" }
+    ],
+    "stills": [
+      "/assets/stills/h1.jpg",
+      "/assets/stills/h2.jpg",
+      "/assets/stills/h3.jpg"
+    ]  },
+  {
+    "title": "A Man for All Seasons",
+    "genre": "Drama, History",
+    "director": "Fred Zinnemann",
+    "country": "UK",
+    "year": 1966,
+    "runtime": 120,
+    "weight": 150,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/a_man_for_all_seasons.jpg",
+    "trailerUrl": "",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "Sir Thomas More weigert de eed van trouw aan de koning te zetten, en draait mee in een politieke intrige vol trouw en verraad.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "Paul Scofield" },
+      { "name": "Wendy Hiller" },
+      { "name": "Robert Shaw" },
+      { "name": "Orson Welles" }
+    ],
+    "stills": [
+      "/assets/stills/amfas1.jpg",
+      "/assets/stills/amfas2.jpg",
+      "/assets/stills/amfas3.jpg"
+    ]  },
+  {
+    "title": "Kes",
+    "genre": "Drama",
+    "director": "Ken Loach",
+    "country": "UK",
+    "year": 1969,
+    "runtime": 107,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/kes.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=Z3b66s9w_kI",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A young Yorkshire boy finds purpose and escape in training a wild kestrel, forming a bond that helps him cope with a tough home and school life.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "David Bradley" },
+      { "name": "Brian Glover" },
+      { "name": "Fiona Mactaggart" }
+    ],
+    "stills": [
+      "/assets/stills/k1.jpg",
+      "/assets/stills/k2.jpg",
+      "/assets/stills/k3.jpg"
+    ]  },{
+  "title": "Ace in the Hole",
+  "genre": "Drama, Film Noir",
+  "director": "Billy Wilder",
+  "country": "USA",
+  "year": 1951,
+  "runtime": 112,
+  "weight": 100,
+  "type": "Blu-ray",
+  "price": 29.50,
+  "imageUrl": "/assets/covers/ace_in_the_hole.jpg",
+  "trailerUrl": "https://www.youtube.com/watch?v=cqZyt3z4dC8",
+  "aspectRatio": "1.37:1",
+  "colorOrBlackAndWhite": "Black & White",
+  "silent": false,
+  "description": "A cynical reporter traps a man in a cave-in to exploit the story for his own gain, but the situation spirals out of control.",
+  "brand": { "name": "Masters of Cinema" },
+  "actors": [
+    { "name": "Kirk Douglas" },
+    { "name": "Jan Sterling" },
+    { "name": "Robert Arthur" }
+  ],
+  "stills": [
+    "/assets/stills/aith1.jpg",
+    "/assets/stills/aith2.jpg",
+    "/assets/stills/aith3.jpg"
+  ]},
+  {
+    "title": "Onibaba",
+    "genre": "Drama, Horror",
+    "director": "Kaneto Shindō",
+    "country": "Japan",
+    "year": 1964,
+    "runtime": 91,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/onibaba.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=VWpB7hBklrY",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "In war-torn Japan, two women struggle to survive by luring men to their deaths in a marsh.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "Nobuko Otowa" },
+      { "name": "Jitsuko Yoshimura" }
+    ],
+    "stills": [
+      "/assets/stills/o1.jpg",
+      "/assets/stills/o2.jpg",
+      "/assets/stills/o3.jpg"
+    ]  },
+  {
+    "title": "Trouble in Paradise",
+    "genre": "Comedy, Romance",
+    "director": "Ernst Lubitsch",
+    "country": "USA",
+    "year": 1932,
+    "runtime": 83,
+    "weight": 125,
+    "type": "DVD",
+    "price": 24.50,
+    "imageUrl": "/assets/covers/trouble_in_paradise.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=9RZQqvB7wE8",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "Two thieves fall in love while plotting to steal from a wealthy woman in Paris.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "Miriam Hopkins" },
+      { "name": "Herbert Marshall" }
+    ],
+    "stills": [
+      "/assets/stills/tip1.jpg",
+      "/assets/stills/tip2.jpg",
+      "/assets/stills/tip3.jpg"
+    ]  },
+  {
+    "title": "Lifeboat",
+    "genre": "Drama, Thriller",
+    "director": "Alfred Hitchcock",
+    "country": "USA",
+    "year": 1944,
+    "runtime": 97,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/lifeboat.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=RxX0tVgkNXk",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "Survivors of a torpedoed ship struggle to survive in a lifeboat with a German survivor.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "Tallulah Bankhead" },
+      { "name": "William Bendix" }
+    ],
+    "stills": [
+      "/assets/stills/l1.jpg",
+      "/assets/stills/l2.jpg",
+      "/assets/stills/l3.jpg"
+    ]  },
+  {
+    "title": "Double Indemnity",
+    "genre": "Film Noir, Crime, Drama",
+    "director": "Billy Wilder",
+    "country": "USA",
+    "year": 1944,
+    "runtime": 107,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/double_indemnity.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=Zjrz21zpUus",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "An insurance salesman and a provocative housewife plot to kill her husband for the insurance money.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Fred MacMurray" },
+      { "name": "Barbara Stanwyck" }
+    ],
+    "stills": [
+      "/assets/stills/di1.jpg",
+      "/assets/stills/di2.jpg",
+      "/assets/stills/di3.jpg"
+    ]  },
+  {
+    "title": "The Lost Weekend",
+    "genre": "Drama",
+    "director": "Billy Wilder",
+    "country": "USA",
+    "year": 1945,
+    "runtime": 101,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/the_lost_weekend.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=Ee23F2RFkKo",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A writer struggles with alcoholism during a long and harrowing weekend.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "Ray Milland" },
+      { "name": "Jane Wyman" }
+    ],
+    "stills": [
+      "/assets/stills/tlw1.jpg",
+      "/assets/stills/tlw2.jpg",
+      "/assets/stills/tlw3.jpg"
+    ]  },
+
+  {
+    "title": "Kuroneko",
+    "genre": "Horror, Fantasy",
+    "director": "Kaneto Shindō",
+    "country": "Japan",
+    "year": 1968,
+    "runtime": 99,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/kuroneko.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=3jRRK-cOdkI",
+    "aspectRatio": "2.35:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "In this poetic and atmospheric horror fable, set in a village in war-torn medieval Japan, a malevolent spirit has been ripping out the throats of itinerant samurai. When a military hero is sent to dispatch the unseen force, he finds that he must struggle with his own personal demons as well.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "Kichiemon Nakamura" },
+      { "name": "Nobuko Otowa" },
+      { "name": "Kiwako Taichi" }
+    ],
+    "stills": [
+      "/assets/stills/ku1.jpg",
+      "/assets/stills/ku2.jpg",
+      "/assets/stills/ku3.jpg"
+    ]  },
+
+  {
+    "title": "Human Desire",
+    "genre": "Film Noir, Crime",
+    "director": "Fritz Lang",
+    "country": "USA",
+    "year": 1954,
+    "runtime": 99,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/human_desire.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=wdGUQ6dTQ7M",
+    "aspectRatio": "1.85:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A manipulative drifter becomes romantically entangled in a love triangle while working on a railroad during a violent strike.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "Glenn Ford" },
+      { "name": "Gloria Grahame" },
+      { "name": "Broderick Crawford" }
+    ],
+    "stills": [
+      "/assets/stills/hd1.jpg",
+      "/assets/stills/hd2.jpg",
+      "/assets/stills/hd3.jpg"
+    ]  },
+
+  {
+    "title": "Das Cabinet des Dr. Caligari",
+    "genre": "Horror, Silent",
+    "director": "Robert Wiene",
+    "country": "Germany",
+    "year": 1920,
+    "runtime": 77,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/das_cabinet_des_dr_caligari.jpg",
+    "trailerUrl": "",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": true,
+    "description": "A seminal German Expressionist horror about a hypnotist and his somnambulist assistant committing murders in a small town, now presented in a stunning UHD restoration.",
+    "brand": {
+      "name": "Masters of Cinema"
+    },
+    "actors": [
+      {"name": "Conrad Veidt"},
+      {"name": "Werner Krauss"},
+      {"name": "Lil Dagover"}
+    ],
+    "stills": [
+      "/assets/stills/dcddc1.jpg",
+      "/assets/stills/dcddc2.jpg",
+      "/assets/stills/dcddc3.jpg"
+    ]  },
+  {
+    "title": "No Country for Old Men",
+    "genre": "Crime, Drama",
+    "director": "Coen Brothers",
+    "country": "USA",
+    "year": 2007,
+    "runtime": 122,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/no_country_for_old_men.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=38A__WT3-o0",
+    "aspectRatio": "2.39:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A hunter stumbles upon drug money, triggering a violent confrontation.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Josh Brolin" }
+    ],
+    "stills": [
+      "/assets/stills/ncfom1.jpg",
+      "/assets/stills/ncfom2.jpg",
+      "/assets/stills/ncfom3.jpg"
+    ]  },
+  {
+    "title": "Blue Velvet",
+    "genre": "Mystery, Thriller",
+    "director": "David Lynch",
+    "country": "USA",
+    "year": 1986,
+    "runtime": 120,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/blue_velvet.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=th1O45b0gH0",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A man investigates a severed ear in a suburban town and uncovers disturbing secrets.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Isabella Rossellini" }
+    ],
+    "stills": [
+      "/assets/stills/bv1.jpg",
+      "/assets/stills/bv2.jpg",
+      "/assets/stills/bv3.jpg"
+    ]  },
+  {
+    "title": "Mean Streets",
+    "genre": "Crime, Drama",
+    "director": "Martin Scorsese",
+    "country": "USA",
+    "year": 1973,
+    "runtime": 112,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/mean_streets.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=3bKMnx8wpNA",
+    "aspectRatio": "1.85:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "An early Scorsese tale of small-time hoodlums in New York’s Little Italy.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Harvey Keitel" }
+    ],
+    "stills": [
+      "/assets/stills/ms1.jpg",
+      "/assets/stills/ms2.jpg",
+      "/assets/stills/ms3.jpg"
+    ]  },
+
+  {
+    "title": "Citizen Kane",
+    "genre": "Drama, Mystery",
+    "director": "Orson Welles",
+    "country": "USA",
+    "year": 1941,
+    "runtime": 119,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/citizen_kane.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=Yc9nUOYAvyI",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A newspaper magnate’s life is revealed through flashbacks after his death.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Orson Welles" }
+    ],
+    "stills": [
+      "/assets/stills/ck1.jpg",
+      "/assets/stills/ck2.jpg",
+      "/assets/stills/ck3.jpg"
+    ]  },
+  {
+    "title": "Solaris",
+    "genre": "Science Fiction, Drama",
+    "director": "Andrei Tarkovsky",
+    "country": "USSR",
+    "year": 1972,
+    "runtime": 167,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/solaris.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=gfJp7Fx6bYw",
+    "aspectRatio": "2.35:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A psychologist is sent to a space station orbiting a mysterious planet to assess the crew's mental state.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Donatas Banionis" },
+      { "name": "Natalya Bondarchuk" }
+    ],
+    "stills": [
+      "/assets/stills/so1.jpg",
+      "/assets/stills/so2.jpg",
+      "/assets/stills/so3.jpg"
+    ]  },
+  {
+    "title": "Stalker",
+    "genre": "Science Fiction, Drama",
+    "director": "Andrei Tarkovsky",
+    "country": "USSR",
+    "year": 1979,
+    "runtime": 163,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/stalker.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=oT2Y6p1v6n4",
+    "aspectRatio": "2.35:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A guide leads two clients into a room that grants wishes, but the journey is fraught with peril.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Alexander Kaidanovsky" },
+      { "name": "Anatoly Solonitsyn" }
+    ],
+    "stills": [
+      "/assets/stills/st1.jpg",
+      "/assets/stills/st2.jpg",
+      "/assets/stills/st3.jpg"
+    ]  },
+  {
+    "title": "The Immortal Story",
+    "genre": "Drama",
+    "director": "Orson Welles",
+    "country": "France",
+    "year": 1968,
+    "runtime": 58,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/TheImmortalStory.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=VuObPaRDoHI",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "An aging wealthy merchant sets out to turn a legendary sailor’s tale into reality, manipulating those around him in the process.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Orson Welles" },
+      { "name": "Jeanne Moreau" },
+      { "name": "Roger Coggio" }
+    ],
+    "stills": [
+      "/assets/stills/is1.jpg",
+      "/assets/stills/is2.jpg",
+      "/assets/stills/is3.jpg"
+    ]  },
+  {
+    "title": "The Magnificent Ambersons",
+    "genre": "Drama",
+    "director": "Orson Welles",
+    "country": "USA",
+    "year": 1942,
+    "runtime": 88,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/TheMagnificentAmbersons.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=dCMJ3j1xv1c",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A wealthy family's decline mirrors the rise of industrial America.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Joseph Cotten" },
+      { "name": "Dolores Costello" }
+    ],
+    "stills": [
+      "/assets/stills/ma1.jpg",
+      "/assets/stills/ma2.jpg",
+      "/assets/stills/ma3.jpg"
+    ]  },
+  {
+    "title": "F for Fake",
+    "genre": "Documentary, Essay Film",
+    "director": "Orson Welles",
+    "country": "France",
+    "year": 1975,
+    "runtime": 88,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/f_for_fake.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=d6cV7bO8qeg",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A playful meditation on art forgery, authorship, and deception.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Orson Welles" },
+      { "name": "Oja Kodar" }
+    ],
+    "stills": [
+      "/assets/stills/fff1.jpg",
+      "/assets/stills/fff.jpg",
+      "/assets/stills/fff.jpg"
+    ]  },
+  {
+    "title": "Chimes at Midnight",
+    "genre": "Drama, History",
+    "director": "Orson Welles",
+    "country": "Spain",
+    "year": 1965,
+    "runtime": 115,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/chimes_at_midnight.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=3AgHS27vxbQ",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "Shakespeare’s Falstaff as a tragic hero in a tale of loyalty and betrayal.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Orson Welles" },
+      { "name": "John Gielgud" },
+      { "name": "Jeanne Moreau" }
+    ],
+    "stills": [
+      "/assets/stills/cam1.jpg",
+      "/assets/stills/cam2.jpg",
+      "/assets/stills/cam3.jpg"
+    ]  },
+  {
+    "title": "La chienne",
+    "genre": "Drama",
+    "director": "Jean Renoir",
+    "country": "France",
+    "year": 1931,
+    "runtime": 96,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/la_chienne.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=XYZ",
+    "aspectRatio": "1.19:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A man seduced by a femme fatale, spirals into moral decay.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Michel Simon" },
+      { "name": "Janie Marèse" }
+    ],
+    "stills": [
+      "/assets/stills/lc1.jpg",
+      "/assets/stills/lc2.jpg",
+      "/assets/stills/lc3.jpg"
+    ]  },
+  {
+    "title": "A Day in the Country",
+    "genre": "Drama",
+    "director": "Jean Renoir",
+    "country": "France",
+    "year": 1936,
+    "runtime": 52,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/ADayInTheCountry.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=XYZ",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A brief summer outing unearths bittersweet romance and class tensions.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Sylvia Bataille" },
+      { "name": "Jane Marken" }
+    ],
+    "stills": [
+      "/assets/stills/aditc1.jpg",
+      "/assets/stills/aditc2.jpg",
+      "/assets/stills/aditc3.jpg"
+    ]  },
+  {
+    "title": "The River",
+    "genre": "Drama",
+    "director": "Jean Renoir",
+    "country": "France/India",
+    "year": 1951,
+    "runtime": 99,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/TheRiver.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=XYZ",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A young girl navigates love and loss during a hot summer in colonial India.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Nora Swinburne" },
+      { "name": "Esmond Knight" }
+    ],
+    "stills": [
+      "/assets/stills/r1.jpg",
+      "/assets/stills/r2.jpg",
+      "/assets/stills/r3.jpg"
+    ]  },
+  {
+    "title": "Toni",
+    "genre": "Drama, Romance",
+    "director": "Jean Renoir",
+    "country": "France",
+    "year": 1935,
+    "runtime": 81,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/Toni.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=XYZ",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "An early work of poetic realism about an Italian immigrant laborer’s doomed love in the south of France.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Charles Blavette" },
+      { "name": "Celia Montalván" }
+    ],
+    "stills": [
+      "/assets/stills/t1.jpg",
+      "/assets/stills/t2.jpg",
+      "/assets/stills/t3.jpg"
+    ]  },
+  {
+    "title": "Mirror",
+    "genre": "Drama",
+    "director": "Andrei Tarkovsky",
+    "country": "USSR",
+    "year": 1975,
+    "runtime": 108,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/mirror.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=V1CxD6TxLyw",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A dying poet reflects on his past, blending memories, dreams, and historical events.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Nikolai Grinko" },
+      { "name": "Ignat Daniltsev" }
+    ],
+    "stills": [
+      "/assets/stills/m1.jpg",
+      "/assets/stills/m2.jpg",
+      "/assets/stills/m3.jpg"
+    ]  },
+  {
+    "title": "Taste of Cherry",
+    "genre": "Drama",
+    "director": "Abbas Kiarostami",
+    "country": "Iran",
+    "year": 1997,
+    "runtime": 99,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/taste_of_cherry.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=XYZ",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A man drives through Tehran searching for someone to bury him after he commits suicide. Winner of the Palme d’Or in 1997." ,
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Homayoun Ershadi" },
+      { "name": "Abdolrahman Bagheri" }
+    ],
+    "stills": [
+      "/assets/stills/toc1.jpg",
+      "/assets/stills/toc2.jpg",
+      "/assets/stills/toc3.jpg"
+    ]  },
+  {
+    "title": "CloseUp",
+    "genre": "Documentary, Drama",
+    "director": "Abbas Kiarostami",
+    "country": "Iran",
+    "year": 1990,
+    "runtime": 98,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/close_up.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=XYZ",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A man impersonates a filmmaker and is taken to court, where he reenacts the real events." ,
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Hossain Sabzian" },
+      { "name": "Mohsen Makhmalbaf" }
+    ],
+    "stills": [
+      "/assets/stills/cu1.jpg",
+      "/assets/stills/cu2.jpg",
+      "/assets/stills/cu3.jpg"
+    ]  },
+  {
+    "title": "24 Frames",
+    "genre": "Experimental",
+    "director": "Abbas Kiarostami",
+    "country": "Iran",
+    "year": 2017,
+    "runtime": 114,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/24_frames.jpg",
+    "trailerUrl": "https://youtube.com/watch?v=XYZ",
+    "aspectRatio": "1.78:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "Kiarostami’s final film, a series of 24 animated still images exploring the moment before and after a photograph." ,
+    "brand": { "name": "Criterion Collection" },
+    "actors": [],
+    "stills": [
+      "/assets/stills/241.jpg",
+      "/assets/stills/242.jpg",
+      "/assets/stills/243.jpg"
+    ]
+  },
+  {
+    "title": "Late Spring",
+    "genre": "Drama",
+    "director": "Yasujirō Ozu",
+    "country": "Japan",
+    "year": 1949,
+    "runtime": 108,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/late_spring.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=XYZ",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A widowed father resists his daughter's marriage, fearing loneliness after she leaves.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Chishū Ryū" },
+      { "name": "Setsuko Hara" }
+    ],
+    "stills": [
+      "/assets/stills/ls1.jpg",
+      "/assets/stills/ls2.jpg",
+      "/assets/stills/ls3.jpg"
+    ]  },
+  {
+    "title": "Eraserhead",
+    "genre": "Horror, Surreal",
+    "director": "David Lynch",
+    "country": "USA",
+    "year": 1977,
+    "runtime": 89,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/eraserhead.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=XYZ",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "Lynch’s debut surreal nightmare—a cult classic about paternal anxiety in a dystopian industrial world.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Jack Nance" },
+      { "name": "Charlotte Stewart" }
+    ],
+    "stills": [
+      "/assets/stills/e1.jpg",
+      "/assets/stills/e2.jpg",
+      "/assets/stills/e3.jpg"
+    ]  },
+  {
+    "title": "Mulholland Dr.",
+    "genre": "Mystery, Thriller",
+    "director": "David Lynch",
+    "country": "USA",
+    "year": 2001,
+    "runtime": 147,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/mulholland_dr.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=XYZ",
+    "aspectRatio": "2.35:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A twisting neo-noir in LA—famous for its dream logic, identity, and haunting atmosphere.",
+    "brand": {
+      "name": "Criterion Collection"
+    },
+    "actors": [
+      {"name": "Naomi Watts"},
+      {"name": "Laura Harring"}
+    ],
+    "stills": [
+      "/assets/stills/md1.jpg",
+      "/assets/stills/md2.jpg",
+      "/assets/stills/md3.jpg"
+    ]  },
+  {
+    "title": "Ugetsu",
+    "genre": "Drama, Fantasy",
+    "director": "Kenji Mizoguchi",
+    "country": "Japan",
+    "year": 1953,
+    "runtime": 95,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/Ugetsu.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=XYZ",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A haunting ghost story about ambition and marital devotion set in civil‑war Japan.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Machiko Kyō" },
+      { "name": "Masayuki Mori" }
+    ],
+    "stills": [
+      "/assets/stills/ug1.jpg",
+      "/assets/stills/ug2.jpg",
+      "/assets/stills/ug3.jpg"
+    ]  },
+  {
+    "title": "Sansho the Bailiff",
+    "genre": "Drama",
+    "director": "Kenji Mizoguchi",
+    "country": "Japan",
+    "year": 1954,
+    "runtime": 143,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/sansho_the_bailiff.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=XYZ",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A heartrending family saga about slavery and redemption in feudal Japan.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Kinuyo Tanaka" },
+      { "name": "Yūnosuke Itō" }
+    ],
+    "stills": [
+      "/assets/stills/stb1.jpg",
+      "/assets/stills/stb2.jpg",
+      "/assets/stills/stb3.jpg"
+    ]  },
+  {
+    "title": "The Life of Oharu",
+    "genre": "Drama, History",
+    "director": "Kenji Mizoguchi",
+    "country": "Japan",
+    "year": 1952,
+    "runtime": 123,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/the_life_of_oharu.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=XYZ",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "The tragic downfall of a noblewoman forced into servitude in Edo‑era Japan.",
+    "brand": {
+      "name": "Criterion Collection"
+    },
+    "actors": [
+      {"name": "Kinuyo Tanaka"},
+      {"name": "Toshiro Mifune"}
+    ],
+    "stills": [
+      "/assets/stills/loh1.jpg",
+      "/assets/stills/loh2.jpg",
+      "/assets/stills/loh3.jpg"
+    ]  },
+  {
+    "title": "Paths of Glory",
+    "genre": "War, Drama",
+    "director": "Stanley Kubrick",
+    "country": "USA",
+    "year": 1957,
+    "runtime": 88,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/paths_of_glory.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=ZojLJkyr5mw",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "During World War I, a commanding officer defends three soldiers accused of cowardice.",
+    "brand": {
+      "name": "Criterion Collection"
+    },
+    "actors": [
+      {"name": "Kirk Douglas"},
+      {"name": "Ralph Meeker"},
+      {"name": "Adolphe Menjou"}
+    ],
+    "stills": [
+      "/assets/stills/pog1.jpg",
+      "/assets/stills/pog2.jpg",
+      "/assets/stills/pog3.jpg"
+    ]  },
+  {
+    "title": "Spartacus",
+    "genre": "Historical Epic, Drama",
+    "director": "Stanley Kubrick",
+    "country": "USA",
+    "year": 1960,
+    "runtime": 196,
+    "weight": 125,
+    "type": "DVD",
+    "price": 24.50,
+    "imageUrl": "/assets/covers/spartacus.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=Ggkq8qkF8oA",
+    "aspectRatio": "2.20:1",
+    "colorOrBlackAndWhite": "Technicolor",
+    "silent": false,
+    "description": "A slave gladiator leads a revolt against the Roman Empire, challenging the might of Rome and its rulers.",
+    "brand": {
+      "name": "Criterion Collection"
+    },
+    "actors": [
+      {"name": "Kirk Douglas"},
+      {"name": "Laurence Olivier"},
+      {"name": "Jean Simmons"},
+      {"name": "Charles Laughton"},
+      {"name": "Peter Ustinov"},
+      {"name": "John Gavin"},
+      {"name": "Tony Curtis"},
+      {"name": "Nina Foch"}
+    ],
+    "stills": [
+      "/assets/stills/sp1.jpg",
+      "/assets/stills/sp2.jpg",
+      "/assets/stills/sp3.jpg"
+    ]  },
+  {
+    "title": "Richard III",
+    "genre": "Drama",
+    "director": "Laurence Olivier",
+    "country": "Verenigd Koninkrijk",
+    "year": 1955,
+    "runtime": 158,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/richard3.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=4x0qe3tao6g0l1k2zv4dz5y2v",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Technicolor",
+    "silent": false,
+    "description": "In deze film brengt Laurence Olivier Shakespeare's meesterwerk tot leven met een visueel verbluffende vertolking van de machtige Richard III.",
+    "brand": {
+      "name": "Criterion Collection"
+    },
+    "actors": [
+      {"name": "Laurence Olivier"},
+      {"name": "Ralph Richardson"},
+      {"name": "John Gielgud"},
+      {"name": "Claire Bloom"}
+    ],
+    "stills": [
+      "/assets/stills/ri1.jpg",
+      "/assets/stills/ri2.jpg",
+      "/assets/stills/ri3.jpg"
+    ]  },
+  {
+    "title": "Henry V",
+    "genre": "Drama, History",
+    "director": "Laurence Olivier",
+    "country": "Verenigd Koninkrijk",
+    "year": 1944,
+    "runtime": 136,
+    "weight": 125,
+    "type": "DVD",
+    "price": 24.50,
+    "imageUrl": "/assets/covers/henry5.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=R-QvTxMHTcY",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Technicolor",
+    "silent": false,
+    "description": "Olivier brengt Shakespeare's koninklijke drama tot leven met een visueel verbluffende vertolking van koning Henry V.",
+    "brand": {
+      "name": "Criterion Collection"
+    },
+    "actors": [
+      {"name": "Laurence Olivier"},
+      {"name": "Leslie Banks"},
+      {"name": "Robert Newton"}
+    ],
+    "stills": [
+      "/assets/stills/he1.jpg",
+      "/assets/stills/he2.jpg",
+      "/assets/stills/he3.jpg"
+    ]  },
+  {
+    "title": "Hamlet",
+    "genre": "Drama",
+    "director": "Laurence Olivier",
+    "country": "Verenigd Koninkrijk",
+    "year": 1948,
+    "runtime": 155,
+    "weight": 125,
+    "type": "DVD",
+    "price": 24.50,
+    "imageUrl": "/assets/covers/hamlet.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=R-QvTxMHTcY",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "Olivier's bekroonde vertolking van Shakespeare's tragedie, met een krachtige en ingetogen uitvoering.",
+    "brand": {
+      "name": "Criterion Collection"
+    },
+    "actors": [
+      {"name": "Laurence Olivier"},
+      {"name": "Jean Simmons"},
+      {"name": "Basil Sydney"}
+    ],
+    "stills": [
+      "/assets/stills/ha1.jpg",
+      "/assets/stills/ha2.jpg",
+      "/assets/stills/ha3.jpg"
+    ]  },
+  {
+    "title": "Brief Encounter",
+    "genre": "Drama, Romance",
+    "director": "David Lean",
+    "country": "UK",
+    "year": 1945,
+    "runtime": 86,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/brief_encounter.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=ixfTpYqPbvs",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A poignant story of a chance meeting and forbidden romance between two married strangers.",
+    "brand": {
+      "name": "Criterion Collection"
+    },
+    "actors": [
+      { "name": "Celia Johnson" },
+      { "name": "Trevor Howard" }
+    ],
+    "stills": [
+      "/assets/stills/be1.jpg",
+      "/assets/stills/be2.jpg",
+      "/assets/stills/be3.jpg"
+    ]  },
+  {
+    "title": "Summertime",
+    "genre": "Drama, Romance",
+    "director": "David Lean",
+    "country": "USA",
+    "year": 1955,
+    "runtime": 108,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/summertime.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=XYZ",
+    "aspectRatio": "1.85:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "An American spinster finds love and romance during a holiday in Venice.",
+    "brand": {
+      "name": "Criterion Collection"
+    },
+    "actors": [
+      { "name": "Katharine Hepburn" },
+      { "name": "Rossano Brazzi" }
+    ],
+    "stills": [
+      "/assets/stills/su1.jpg",
+      "/assets/stills/su2.jpg",
+      "/assets/stills/su3.jpg"
+    ]  },
+  {
+    "title": "After Hours",
+    "genre": "Comedy, Thriller",
+    "director": "Martin Scorsese",
+    "country": "USA",
+    "year": 1985,
+    "runtime": 97,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/after_hours.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=HX5YmHeZbAQ",
+    "aspectRatio": "1.85:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "An ordinary word processor finds himself trapped in a nightmarish adventure in SoHo.",
+    "brand": {
+      "name": "Criterion Collection"
+    },
+    "actors": [
+      {"name": "Griffin Dunne"},
+      {"name": "Rosanna Arquette"},
+      {"name": "Verna Bloom"}
+    ],
+    "stills": [
+      "/assets/stills/ah1.jpg",
+      "/assets/stills/ah2.jpg",
+      "/assets/stills/ah3.jpg"
+    ]  },
+  {
+    "title": "Harakiri",
+    "genre": "Drama, Samurai",
+    "director": "Masaki Kobayashi",
+    "country": "Japan",
+    "year": 1962,
+    "runtime": 133,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/harakiri.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=xyz",
+    "aspectRatio": "1.85:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A masterless samurai requests to commit ritual suicide in a lord’s courtyard, uncovering dark truths.",
+    "brand": {
+      "name": "Criterion Collection"
+    },
+    "actors": [
+      {"name": "Tatsuya Nakadai"},
+      {"name": "Akira Ishihama"}
+    ],
+    "stills": [
+      "/assets/stills/hk1.jpg",
+      "/assets/stills/hk2.jpg",
+      "/assets/stills/hk3.jpg"
+    ]  },
+  {
+    "title": "Samurai Rebellion",
+    "genre": "Drama, Samurai",
+    "director": "Masaki Kobayashi",
+    "country": "Japan",
+    "year": 1967,
+    "runtime": 115,
+    "weight": 125,
+    "type": "DVD",
+    "price": 24.50,
+    "imageUrl": "/assets/covers/samurai_rebellion.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=xyz",
+    "aspectRatio": "1.85:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A samurai resists his lord’s unjust demands, leading to a dramatic clash of honor and loyalty.",
+    "brand": {
+      "name": "Criterion Collection"
+    },
+    "actors": [
+      {"name": "Tatsuya Nakadai"},
+      {"name": "Akira Ishihama"}
+    ],
+    "stills": [
+      "/assets/stills/sr1.jpg",
+      "/assets/stills/sr2.jpg",
+      "/assets/stills/sr3.jpg"
+    ]  },
+  {
+    "title": "Kwaidan",
+    "genre": "Horror, Fantasy",
+    "director": "Masaki Kobayashi",
+    "country": "Japan",
+    "year": 1964,
+    "runtime": 183,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/kwaidan.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=xyz",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A visually stunning anthology of Japanese ghost stories based on traditional folklore.",
+    "brand": {
+      "name": "Criterion Collection"
+    },
+    "actors": [
+      {"name": "Tatsuo Matsumura"},
+      {"name": "Keiko Kishi"}
+    ],
+    "stills": [
+      "/assets/stills/kw1.jpg",
+      "/assets/stills/kw2.jpg",
+      "/assets/stills/kw3.jpg"
+    ]  },
+  {
+    "title": "The Burmese Harp",
+    "genre": "Drama, War",
+    "director": "Kon Ichikawa",
+    "country": "Japan",
+    "year": 1956,
+    "runtime": 110,
+    "weight": 150,
+    "type": "4K Ultra HD",
+    "price": 34.50,
+    "imageUrl": "/assets/covers/the_burmese_harp.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=UHuSO0LYyRo",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A Japanese soldier deserts his post in Burma near the end of World War II and searches for his comrades’ graves.",
+    "brand": {
+      "name": "Criterion Collection"
+    },
+    "actors": [
+      {"name": "Shin Saburi"},
+      {"name": "Jun Tatara"}
+    ],
+    "stills": [
+      "/assets/stills/bh1.jpg",
+      "/assets/stills/bh2.jpg",
+      "/assets/stills/bh3.jpg"
+    ]  },
+  {
+    "title": "The Makioka Sisters",
+    "genre": "Drama",
+    "director": "Kon Ichikawa",
+    "country": "Japan",
+    "year": 1983,
+    "runtime": 132,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/the_makioka_sisters.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=xdXs9Dyv8ZQ",
+    "aspectRatio": "1.85:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "Four sisters from a wealthy Osaka family navigate social change in pre-war Japan.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Keiko Kishi" },
+      { "name": "Sachiko Hidari" }
+    ],
+    "stills": [
+      "/assets/stills/ms1.jpg",
+      "/assets/stills/ms2.jpg",
+      "/assets/stills/ms3.jpg"
+    ]  },
+  {
+    "title": "An Actor's Revenge",
+    "genre": "Drama",
+    "director": "Kon Ichikawa",
+    "country": "Japan",
+    "year": 1963,
+    "runtime": 102,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/an_actors_revenge.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=cluh8z-_9HY",
+    "aspectRatio": "1.85:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A Kabuki actor plots revenge against those who wronged his parents in this stylized drama.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Kazuo Hasegawa" },
+      { "name": "Machiko Kyō" }
+    ],
+    "stills": [
+      "/assets/stills/aar1.jpg",
+      "/assets/stills/aar.jpg",
+      "/assets/stills/aar.jpg"
+    ]  },
+  {
+    "title": "Tokyo Story",
+    "genre": "Drama",
+    "director": "Yasujirō Ozu",
+    "country": "Japan",
+    "year": 1953,
+    "runtime": 136,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/tokyo_story.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=XYZ",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "An aging couple visit their grown children in Tokyo, only to be neglected and overlooked.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Chishū Ryū" },
+      { "name": "Chieko Higashiyama" },
+      { "name": "Setsuko Hara" }
+    ],
+    "stills": [
+      "/assets/stills/ts1.jpg",
+      "/assets/stills/ts2.jpg",
+      "/assets/stills/ts3.jpg"
+    ]  },
+  {
+    "title": "I Know Where I’m Going!",
+    "genre": "Romance, Drama",
+    "director": "Michael Powell & Emeric Pressburger",
+    "country": "Verenigd Koninkrijk",
+    "year": 1945,
+    "runtime": 91,
+    "weight": 125,
+    "type": "DVD",
+    "price": 24.50,
+    "imageUrl": "/assets/covers/i_know_where_im_going.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=4x0qe3tao6g0l1k2zv4dz5y2v",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "Een koppige jonge vrouw reist naar de Schotse Hebriden om te trouwen met een rijke heer, maar wordt door stormachtig weer gedwongen haar plannen te heroverwegen.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Wendy Hiller" },
+      { "name": "Roger Livesey" }
+    ],
+    "stills": [
+      "/assets/stills/ikwig1.jpg",
+      "/assets/stills/ikwim2.jpg",
+      "/assets/stills/ikwig3.jpg"
+    ]  },
+  {
+    "title": "Black Narcissus",
+    "genre": "Drama, Romance",
+    "director": "Michael Powell & Emeric Pressburger",
+    "country": "Verenigd Koninkrijk",
+    "year": 1947,
+    "runtime": 101,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/black_narcissus.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=4x0qe3tao6g0l1k2zv4dz5y2v",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Technicolor",
+    "silent": false,
+    "description": "Een groep nonnen worstelt om een klooster op te richten in de Himalaya, terwijl isolatie en cultuurverschillen hen tot het uiterste drijven.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Deborah Kerr" },
+      { "name": "Kathleen Byron" }
+    ],
+    "stills": [
+      "/assets/stills/bn1.jpg",
+      "/assets/stills/bn2.jpg",
+      "/assets/stills/bn3.jpg"
+    ]  },
+  {
+    "title": "The Tales of Hoffmann",
+    "genre": "Fantasy, Drama",
+    "director": "Michael Powell & Emeric Pressburger",
+    "country": "Verenigd Koninkrijk",
+    "year": 1951,
+    "runtime": 137,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/TheTalesOfHoffman.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=4x0qe3tao6g0l1k2zv4dz5y2v",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Technicolor",
+    "silent": false,
+    "description": "Een romantische fantasie gebaseerd op de opera van Jacques Offenbach, waarin de dichter Hoffmann zijn drie verloren liefdes herbeleeft.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Robert Rounseville" },
+      { "name": "Moira Shearer" }
+    ],
+    "stills": [
+      "/assets/stills/toh1.jpg",
+      "/assets/stills/toh2.jpg",
+      "/assets/stills/toh3.jpg"
+    ]  },
+  {
+    "title": "Limelight",
+    "genre": "Drama, Comedy",
+    "director": "Charles Chaplin",
+    "country": "USA",
+    "year": 1952,
+    "runtime": 137,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/limelight.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=8W0GOLrNr2E",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A washed-up comedian helps a young dancer find success while confronting his own fading stardom.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Charles Chaplin" },
+      { "name": "Claire Bloom" }
+    ],
+    "stills": [
+      "/assets/stills/li1.jpg",
+      "/assets/stills/li2.jpg",
+      "/assets/stills/li3.jpg"
+    ]  },
+  {
+    "title": "The Great Dictator",
+    "genre": "Comedy, Satire",
+    "director": "Charles Chaplin",
+    "country": "USA",
+    "year": 1940,
+    "runtime": 125,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/the_great_dictator.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=YFtwfHK-Cf0",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "Chaplin’s first true talking picture, satirizing Adolf Hitler and fascism through the story of a Jewish barber.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Charles Chaplin" },
+      { "name": "Paulette Goddard" }
+    ],
+    "stills": [
+      "/assets/stills/gd1.jpg",
+      "/assets/stills/gd2.jpg",
+      "/assets/stills/gd3.jpg"
+    ]  },
+  {
+    "title": "The Kid",
+    "genre": "Comedy, Drama",
+    "director": "Charles Chaplin",
+    "country": "USA",
+    "year": 1921,
+    "runtime": 68,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/the_kid.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=Hb5yxZK2TIk",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": true,
+    "description": "Chaplin's iconic silent film about the Tramp who cares for an abandoned child.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Charles Chaplin" },
+      { "name": "Jackie Coogan" }
+    ],
+    "stills": [
+      "/assets/stills/ki1.jpg",
+      "/assets/stills/ki2.jpg",
+      "/assets/stills/ki3.jpg"
+    ]  },
+  {
+    "title": "City Lights",
+    "genre": "Comedy, Romance",
+    "director": "Charles Chaplin",
+    "country": "USA",
+    "year": 1931,
+    "runtime": 87,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/city_lights.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=1kLpN-Ba8dw",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": true,
+    "description": "The Tramp falls in love with a blind flower girl and tries to help her regain her sight.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Charles Chaplin" },
+      { "name": "Virginia Cherrill" }
+    ],
+    "stills": [
+      "/assets/stills/ci1.jpg",
+      "/assets/stills/ci2.jpg",
+      "/assets/stills/ci3.jpg"
+    ]  },
+  {
+    "title": "Modern Times",
+    "genre": "Comedy",
+    "director": "Charles Chaplin",
+    "country": "USA",
+    "year": 1936,
+    "runtime": 87,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/modern_times.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=qv8UBr1rmlY",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "Chaplin’s Tramp struggles to survive in the modern, industrialized world.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Charles Chaplin" },
+      { "name": "Paulette Goddard" }
+    ],
+    "stills": [
+      "/assets/stills/mt1.jpg",
+      "/assets/stills/mt2.jpg",
+      "/assets/stills/mt3.jpg"
+    ]  },
+  {
+    "title": "The Gold Rush",
+    "genre": "Comedy, Adventure",
+    "director": "Charles Chaplin",
+    "country": "USA",
+    "year": 1925,
+    "runtime": 95,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/the_gold_rush.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=_vP0akJ_g14",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": true,
+    "description": "The Tramp ventures into the Klondike in search of gold and fortune.",
+    "brand": {
+      "name": "Criterion Collection"
+    },
+    "actors": [
+      {"name": "Charles Chaplin"}
+    ],
+    "stills": [
+      "/assets/stills/gr1.jpg",
+      "/assets/stills/gr2.jpg",
+      "/assets/stills/gr3.jpg"
+    ]  },
+    {
+      "title": "Safety Last!",
+      "genre": "Comedy",
+      "director": "Fred C. Newmeyer & Sam Taylor",
+      "country": "USA",
+      "year": 1923,
+      "runtime": 74,
+      "weight": 100,
+      "type": "Blu-ray",
+      "price": 29.50,
+      "imageUrl": "/assets/covers/safety_last.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=O6EOmZ1-2PQ",
+      "aspectRatio": "1.33:1",
+      "colorOrBlackAndWhite": "Black & White",
+      "silent": true,
+      "description": "Harold Lloyd performs his most famous stunt — hanging from a clock on a skyscraper — in this classic silent comedy.",
+      "brand": { "name": "Criterion Collection" },
+      "actors": [
+        { "name": "Harold Lloyd" },
+        { "name": "Mildred Davis" }
+      ],
+      "stills": [
+        "/assets/stills/sl1.jpg",
+        "/assets/stills/sl2.jpg",
+        "/assets/stills/sl3.jpg"
+      ]    },
+    {
+      "title": "The Kid Brother",
+      "genre": "Comedy",
+      "director": "Ted Wilde",
+      "country": "USA",
+      "year": 1927,
+      "runtime": 75,
+      "weight": 100,
+      "type": "Blu-ray",
+      "price": 29.50,
+      "imageUrl": "/assets/covers/the_kid_brother.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=6d2t53uPfiQ",
+      "aspectRatio": "1.33:1",
+      "colorOrBlackAndWhite": "Black & White",
+      "silent": true,
+      "description": "Harold Lloyd stars as the underestimated youngest son who must prove himself in his small town.",
+      "brand": { "name": "Criterion Collection" },
+      "actors": [
+        { "name": "Harold Lloyd" },
+        { "name": "Jobyna Ralston" }
+      ],
+      "stills": [
+        "/assets/stills/kb1.jpg",
+        "/assets/stills/kb2.jpg",
+        "/assets/stills/kb3.jpg"
+      ]    },
+  {
+    "title": "The Cameraman",
+    "genre": "Comedy, Silent",
+    "director": "Buster Keaton & Edward F. Cline",
+    "country": "USA",
+    "year": 1928,
+    "runtime": 69,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/the_cameraman.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=YcJ0H4WZs40",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": true,
+    "description": "Buster Keaton stars as a clumsy but determined man who tries to win the heart of a girl by becoming a newsreel cameraman.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Buster Keaton" },
+      { "name": "Marion Byron" }
+    ],
+    "stills": [
+      "/assets/stills/ca1.jpg",
+      "/assets/stills/ca2.jpg",
+      "/assets/stills/ca3.jpg"
+    ]  },
+    {
+      "title": "Pickpocket",
+      "genre": "Drama, Crime",
+      "director": "Robert Bresson",
+      "country": "France",
+      "year": 1959,
+      "runtime": 75,
+      "weight": 100,
+      "type": "Blu-ray",
+      "price": 29.50,
+      "imageUrl": "/assets/covers/pickpocket.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=3zpm-TZzS2M",
+      "aspectRatio": "1.37:1",
+      "colorOrBlackAndWhite": "Black & White",
+      "silent": false,
+      "description": "A young man turns to pickpocketing while struggling with his own moral dilemmas.",
+      "brand": { "name": "Criterion Collection" },
+      "actors": [
+        { "name": "Martin LaSalle" },
+        { "name": "Marika Green" }
+      ],
+      "stills": [
+        "/assets/stills/pi1.jpg",
+        "/assets/stills/pi2.jpg",
+        "/assets/stills/pi3.jpg"
+      ]    },
+    {
+      "title": "Au Hasard Balthazar",
+      "genre": "Drama",
+      "director": "Robert Bresson",
+      "country": "France",
+      "year": 1966,
+      "runtime": 95,
+      "weight": 100,
+      "type": "Blu-ray",
+      "price": 29.50,
+      "imageUrl": "/assets/covers/au_hazard_balthazar.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=VLZr8RD94bA",
+      "aspectRatio": "1.37:1",
+      "colorOrBlackAndWhite": "Black & White",
+      "silent": false,
+      "description": "The life and suffering of a donkey named Balthazar mirrors the cruelty of the people around him.",
+      "brand": { "name": "Criterion Collection" },
+      "actors": [
+        { "name": "Anne Wiazemsky" },
+        { "name": "Walter Green" }
+      ],
+      "stills": [
+        "/assets/stills/ahb1.jpg",
+        "/assets/stills/ahb2.jpg",
+        "/assets/stills/ahb3.jpg"
+      ]    },
+  {
+    "title": "Beauty And The Beast",
+    "genre": "Fantasy, Romance",
+    "director": "Jean Cocteau",
+    "country": "France",
+    "year": 1946,
+    "runtime": 95,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/beauty_and_the_beast.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=zpxnr9e6kLY",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A visually stunning and poetic retelling of the classic fairy tale about love and transformation.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Jean Marais" },
+      { "name": "Josette Day" }
+    ],
+    "stills": [
+      "/assets/stills/batb1.jpg",
+      "/assets/stills/batb2.jpg",
+      "/assets/stills/batb3.jpg"
+    ]  },
+  {
+    "title": "Orpheus",
+    "genre": "Fantasy, Drama",
+    "director": "Jean Cocteau",
+    "country": "France",
+    "year": 1950,
+    "runtime": 95,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/orpheus.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=9N9ruXQ4bcI",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A surreal modern take on the Orpheus myth, exploring themes of death, love, and poetry.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Jean Marais" },
+      { "name": "Maria Casares" }
+    ],
+    "stills": [
+      "/assets/stills/or1.jpg",
+      "/assets/stills/or2.jpg",
+      "/assets/stills/or3.jpg"
+    ]  },
+  {
+    "title": "L'Argent",
+    "genre": "Drama",
+    "director": "Robert Bresson",
+    "country": "France",
+    "year": 1983,
+    "runtime": 100,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/largent.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=w_sY4YHtqGo",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A powerful drama about the destructive influence of money, based on Tolstoy's story 'The Forged Coupon'.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Christian Patey" },
+      { "name": "Vincent Risterucci" }
+    ],
+    "stills": [
+      "/assets/stills/la1.jpg",
+      "/assets/stills/la2.jpg",
+      "/assets/stills/la3.jpg"
+    ]  },
+    {
+      "title": "Mouchette",
+      "genre": "Drama",
+      "director": "Robert Bresson",
+      "country": "France",
+      "year": 1967,
+      "runtime": 83,
+      "weight": 100,
+      "type": "Blu-ray",
+      "price": 29.50,
+      "imageUrl": "/assets/covers/mouchette.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=MWskNE0aFaQ",
+      "aspectRatio": "1.37:1",
+      "colorOrBlackAndWhite": "Black & White",
+      "silent": false,
+      "description": "A tragic story of a young girl facing hardship and alienation in rural France.",
+      "brand": { "name": "Criterion Collection" },
+      "actors": [
+        { "name": "Nadine Nortier" }
+      ],
+      "stills": [
+        "/assets/stills/mo1.jpg",
+        "/assets/stills/mo2.jpg",
+        "/assets/stills/mo3.jpg"
+      ]    },
+  {
+    "title": "The 400 Blows",
+    "genre": "Drama",
+    "director": "François Truffaut",
+    "country": "France",
+    "year": 1959,
+    "runtime": 99,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/the_400_blows.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=E6LBTxn6n18",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A classic coming-of-age story about a misunderstood adolescent in Paris.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Jean-Pierre Léaud" },
+      { "name": "Claire Maurier" }
+    ],
+    "stills": [
+      "/assets/stills/4b1.jpg",
+      "/assets/stills/4b2.jpg",
+      "/assets/stills/4b3.jpg"
+    ]  },
+  {
+    "title": "The Leopard",
+    "genre": "Historical Drama",
+    "director": "Luchino Visconti",
+    "country": "Italy",
+    "year": 1963,
+    "runtime": 185,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/the_leopard.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=w3WgGAfZp5Q",
+    "aspectRatio": "2.21:1",
+    "colorOrBlackAndWhite": "Technicolor",
+    "silent": false,
+    "description": "An aging Sicilian prince witnesses the social and political changes during the unification of Italy.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Burt Lancaster" },
+      { "name": "Alain Delon" },
+      { "name": "Claudia Cardinale" }
+    ],
+    "stills": [
+      "/assets/stills/le1.jpg",
+      "/assets/stills/le2.jpg",
+      "/assets/stills/le3.jpg"
+    ]  },
+  {
+    "title": "Death in Venice",
+    "genre": "Drama",
+    "director": "Luchino Visconti",
+    "country": "Italy",
+    "year": 1971,
+    "runtime": 131,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/death_in_venice.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=YzgxZDbK8Ew",
+    "aspectRatio": "2.35:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A composer arrives in Venice seeking peace and beauty, but becomes obsessed with a young boy.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Dirk Bogarde" },
+      { "name": "Björn Andrésen" }
+    ],
+    "stills": [
+      "/assets/stills/div1.jpg",
+      "/assets/stills/div2.jpg",
+      "/assets/stills/div3.jpg"
+    ]  },
+  {
+    "title": "Senso",
+    "genre": "Romance, War",
+    "director": "Luchino Visconti",
+    "country": "Italy",
+    "year": 1954,
+    "runtime": 123,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/senso.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=dRn9UjVRi7g",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Technicolor",
+    "silent": false,
+    "description": "In 19th-century Venice, a married countess enters a doomed affair with an Austrian officer during the war of Italian unification.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Alida Valli" },
+      { "name": "Farley Granger" }
+    ],
+    "stills": [
+      "/assets/stills/se1.jpg",
+      "/assets/stills/se2.jpg",
+      "/assets/stills/se3.jpg"
+    ]  },
+  {
+    "title": "Wings of Desire",
+    "genre": "Fantasy, Drama",
+    "director": "Wim Wenders",
+    "country": "Germany",
+    "year": 1987,
+    "runtime": 128,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/wings_of_desire.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=OgMtYF5FvJY",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "An angel falls in love with a mortal woman and yearns to experience human life in divided Berlin.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Bruno Ganz" },
+      { "name": "Solveig Dommartin" },
+      { "name": "Peter Falk" }
+    ],
+    "stills": [
+      "/assets/stills/wod1.jpg",
+      "/assets/stills/wod2.jpg",
+      "/assets/stills/wod3.jpg"
+    ]  },
+  {
+    "title": "Perfect Days",
+    "genre": "Drama",
+    "director": "Wim Wenders",
+    "country": "Japan",
+    "year": 2023,
+    "runtime": 123,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/perfect_days.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=5akjczJ3yEk",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A Tokyo toilet cleaner lives a life of quiet dignity and rhythm, finding joy in the everyday.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Kōji Yakusho" },
+      { "name": "Tokio Emoto" }
+    ],
+    "stills": [
+      "/assets/stills/pd1.jpg",
+      "/assets/stills/pd2.jpg",
+      "/assets/stills/pd3.jpg"
+    ]  },
+  {
+    "title": "Vampyr",
+    "genre": "Horror, Fantasy",
+    "director": "Carl Theodor Dreyer",
+    "country": "Denmark",
+    "year": 1932,
+    "runtime": 73,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/vampyr.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=lC5y0rrld3k",
+    "aspectRatio": "1.19:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A traveler finds himself caught in a shadowy web of supernatural terror at a remote village inn.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Julian West" },
+      { "name": "Maurice Schutz" }
+    ],
+    "stills": [
+      "/assets/stills/va1.jpg",
+      "/assets/stills/va2.jpg",
+      "/assets/stills/va3.jpg"
+    ]  },
+  {
+    "title": "The Passion of Joan of Arc",
+    "genre": "Drama, Historical",
+    "director": "Carl Theodor Dreyer",
+    "country": "France",
+    "year": 1928,
+    "runtime": 82,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/ThePassionOfJoanOfArc.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=UGmfslztdkA",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": true,
+    "description": "A haunting depiction of Joan of Arc's trial and execution, renowned for its emotional intensity and visual style.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Renée Jeanne Falconetti" },
+      { "name": "Eugène Silvain" }
+    ],
+    "stills": [
+      "/assets/stills/pojoa1.jpg",
+      "/assets/stills/pojoa2.jpg",
+      "/assets/stills/pojoa3.jpg"
+    ]  },
+  {
+    "title": "Master of the House",
+    "genre": "Drama",
+    "director": "Carl Theodor Dreyer",
+    "country": "Denmark",
+    "year": 1925,
+    "runtime": 91,
+    "weight": 125,
+    "type": "DVD",
+    "price": 24.50,
+    "imageUrl": "/assets/covers/master_of_the_house.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=XYZ",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": true,
+    "description": "A domestic tyrant is taught a lesson in humility in this quiet, compassionate early work by Dreyer.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Johannes Meyer" },
+      { "name": "Astrid Holm" }
+    ],
+    "stills": [
+      "/assets/stills/moth1.jpg",
+      "/assets/stills/moth2.jpg",
+      "/assets/stills/moth3.jpg"
+    ]  },
+  {
+    "title": "Jules and Jim",
+    "genre": "Romance, Drama",
+    "director": "François Truffaut",
+    "country": "France",
+    "year": 1962,
+    "runtime": 105,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/jules_and_jim.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=4F45ZXQ5JfY",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "Two friends who fall in love with the same woman, leading to a complex love triangle.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Oskar Werner" },
+      { "name": "Jeanne Moreau" }
+    ],
+    "stills": [
+      "/assets/stills/jaj1.jpg",
+      "/assets/stills/jaj2.jpg",
+      "/assets/stills/jaj3.jpg"
+    ]  },
+  {
+    "title": "Breathless",
+    "genre": "Crime, Drama",
+    "director": "Jean-Luc Godard",
+    "country": "France",
+    "year": 1960,
+    "runtime": 90,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/breathless.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=R9-cxCjT8l8",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A young car thief tries to convince his American girlfriend to run away with him to Italy.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Jean-Paul Belmondo" },
+      { "name": "Jean Seberg" }
+    ],
+    "stills": [
+      "/assets/stills/br1.jpg",
+      "/assets/stills/br2.jpg",
+      "/assets/stills/br3.jpg"
+    ]  },
+  {
+    "title": "The Man Who Knew Too Much",
+    "genre": "Thriller",
+    "director": "Alfred Hitchcock",
+    "country": "UK",
+    "year": 1934,
+    "runtime": 76,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/the_man_who_knew_too_much.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=QlT2F7D6SvI",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "Een diplomaat ontdekt een moordcomplot tijdens een vakantie in de Alpen en belandt in een race tegen de klok om zijn zoon te redden.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Leslie Banks" },
+      { "name": "Edna Best" }
+    ],
+    "stills": [
+      "/assets/stills/tmwktm1.jpg",
+      "/assets/stills/tmwktm2.jpg",
+      "/assets/stills/tmwktm3.jpg"
+    ]  },
+  {
+    "title": "Black Orpheus",
+    "genre": "Drama, Romance, Fantasy",
+    "director": "Marcel Camus",
+    "country": "Brazil, France",
+    "year": 1959,
+    "runtime": 107,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/black_orpheus.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=asUQiuwZs1Y",
+    "aspectRatio": "1.35:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A retelling of the Orpheus and Eurydice myth set during Carnaval in Rio de Janeiro.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Breno Mello" },
+      { "name": "Marpessa Dawn" }
+    ],
+    "stills": [
+      "/assets/stills/bo1.jpg",
+      "/assets/stills/bo2.jpg",
+      "/assets/stills/bo3.jpg"
+    ]  },
+  {
+    "title": "The Music Room",
+    "genre": "Drama",
+    "director": "Satyajit Ray",
+    "country": "India",
+    "year": 1958,
+    "runtime": 100,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/the_music_room.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=liUgX-ZVma8",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "An aging aristocrat clings to past glory by hosting lavish music recitals, even as his fortune and status fade.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Chhabi Biswas" },
+      { "name": "Padma Devi" }
+    ],
+    "stills": [
+      "/assets/stills/mr1.jpg",
+      "/assets/stills/mr2.jpg",
+      "/assets/stills/mr3.jpg"
+    ]  },
+  {
+    "title": "Woman in the Dunes",
+    "genre": "Drama, Mystery",
+    "director": "Hiroshi Teshigahara",
+    "country": "Japan",
+    "year": 1964,
+    "runtime": 147,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/woman_in_the_dunes.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=rV43gZRRy0U",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "An entomologist becomes trapped in a sand dune with a mysterious woman, in this haunting allegory of existence and confinement.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Eiji Okada" },
+      { "name": "Kyōko Kishida" }
+    ],
+    "stills": [
+      "/assets/stills/witd1.jpg",
+      "/assets/stills/witd2.jpg",
+      "/assets/stills/witd3.jpg"
+    ]  },
+  {
+    "title": "The Naked Island",
+    "genre": "Drama",
+    "director": "Kaneto Shindō",
+    "country": "Japan",
+    "year": 1960,
+    "runtime": 96,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/the_naked_island.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=6Asxu6JdSIc",
+    "aspectRatio": "2.35:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A wordless portrait of a couple’s daily struggle to survive on a remote island, told through imagery alone.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Taiji Tonoyama" },
+      { "name": "Nobuko Otowa" }
+    ],
+    "stills": [
+      "/assets/stills/ni1.jpg",
+      "/assets/stills/ni2.jpg",
+      "/assets/stills/ni3.jpg"
+    ]  },
+  {
+    "title": "Michael",
+    "genre": "Drama",
+    "director": "Carl Theodor Dreyer",
+    "country": "Duitsland",
+    "year": 1924,
+    "runtime": 90,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/michael.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=rotvXHwWR7Q",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": true,
+    "description": "A famous painter becomes entangled in a love triangle with his young muse and a seductive aristocrat, one of the earliest and most compassionate homoerotic films in cinema history.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "Walter Slezak" },
+      { "name": "Benjamin Christensen" },
+      { "name": "Nora Gregor" }
+    ],
+    "stills": [
+      "/assets/stills/mi1.jpg",
+      "/assets/stills/mi2.jpg",
+      "/assets/stills/mi3.jpg"
+    ]  },
+  {
+    "title": "A Special Day",
+    "genre": "Drama, War",
+    "director": "Ettore Scola",
+    "country": "Italy",
+    "year": 1977,
+    "runtime": 106,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/a_special_day.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=HWv08w5YdPM",
+    "aspectRatio": "1.85:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "Two lonely neighbors connect in fascist Rome on the day of Hitler's visit to Mussolini.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Sophia Loren" },
+      { "name": "Marcello Mastroianni" }
+    ],
+    "stills": [
+      "/assets/stills/asd1.jpg",
+      "/assets/stills/asd2.jpg",
+      "/assets/stills/asd3.jpg"
+    ]  },
+
+  {
+    "title": "The Ballad of Narayama",
+    "genre": "Drama",
+    "director": "Kei Kumai",
+    "country": "Japan",
+    "year": 1958,
+    "runtime": 107,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/the_ballad_of_narayama.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=6x4ZQ4fcBWY",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "In a remote mountain village, an elderly woman faces the tradition of being carried to the mountain to die, according to local custom.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Shin Saburi" },
+      { "name": "Chieko Murata" }
+    ],
+
+  "stills": [
+      "/assets/stills/bon1.jpg",
+      "/assets/stills/bon2.jpg",
+      "/assets/stills/bon3.jpg"
+    ]  },
+  {
+    "title": "The Killing of a Chinese Bookie",
+    "genre": "Crime, Drama, Thriller",
+    "director": "John Cassavetes",
+    "country": "USA",
+    "year": 1976,
+    "runtime": 122,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/the_killing_of_a_chinese_bookie.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=ikAx2GjvIS4",
+    "aspectRatio": "1.85:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A strip club owner is coerced into performing one last mob hit while dealing with his own identity crisis in this cult classic from John Cassavetes.",
+    "brand": { "name": "BFI" },
+    "actors": [
+      { "name": "Ben Gazzara" },
+      { "name": "Sally Kellerman" }
+    ],
+    "stills": [
+      "/assets/stills/koacb1.jpg",
+      "/assets/stills/koacb2.jpg",
+      "/assets/stills/koacb3.jpg"
+    ]  },
+  {
+    "title": "Eyes Without a Face",
+    "genre": "Horror, Drama",
+    "director": "Georges Franju",
+    "country": "France",
+    "year": 1960,
+    "runtime": 90,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/eyes_without_a_face.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=LnDQ8QplKuQ",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A plastic surgeon attempts to restore his daughter’s disfigured face by kidnapping young women.",
+    "brand": { "name": "BFI" },
+    "actors": [
+      { "name": "Pierre Brasseur" },
+      { "name": "Alida Valli" },
+      { "name": "Edith Scob" }
+    ],
+    "stills": [
+      "/assets/stills/ewaf1.jpg",
+      "/assets/stills/ewaf2.jpg",
+      "/assets/stills/ewaf3.jpg"
+    ]  },
+  {
+    "title": "Naked",
+    "genre": "Drama, Thriller",
+    "director": "Mike Leigh",
+    "country": "UK",
+    "year": 1993,
+    "runtime": 130,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/naked.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=1Jm2glsWq_4",
+    "aspectRatio": "1.85:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A volatile drifter wanders London’s streets, exposing the underbelly of urban life through his encounters.",
+    "brand": { "name": "BFI" },
+    "actors": [
+      { "name": "David Thewlis" },
+      { "name": "Lesley Sharp" },
+      { "name": "Greg Cruttwell" }
+    ],
+    "stills": [
+      "/assets/stills/na1.jpg",
+      "/assets/stills/na2.jpg",
+      "/assets/stills/na3.jpg"
+    ]  },
+
+  {
+    "title": "Early Summer",
+    "genre": "Drama",
+    "director": "Yasujiro Ozu",
+    "country": "Japan",
+    "year": 1951,
+    "runtime": 110,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/early_summer.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=KsWPKqSFWlQ",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A young woman balances family expectations and her own desire for happiness.",
+    "brand": { "name": "BFI" },
+    "actors": [
+      { "name": "Setsuko Hara" },
+      { "name": "Chishu Ryu" }
+    ],
+    "stills": [
+      "/assets/stills/es1.jpg",
+      "/assets/stills/es2.jpg",
+      "/assets/stills/es3.jpg"
+    ]  },
+  {
+    "title": "The 39 Steps",
+    "genre": "Thriller, Spy",
+    "director": "Alfred Hitchcock",
+    "country": "UK",
+    "year": 1935,
+    "runtime": 87,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/the_39_steps.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=QYgT2T0g9pY",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "Een onschuldige man raakt verwikkeld in een spionagecomplot en moet door heel Schotland vluchten om zijn naam te zuiveren.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Robert Donat" },
+      { "name": "Madeleine Carroll" }
+    ],
+    "stills": [
+      "/assets/stills/t3s1.jpg",
+      "/assets/stills/t3s2.jpg",
+      "/assets/stills/t3s3.jpg"
+    ]  },
+  {
+    "title": "Rebecca",
+    "genre": "Drama, Mystery",
+    "director": "Alfred Hitchcock",
+    "country": "USA",
+    "year": 1940,
+    "runtime": 130,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/rebecca.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=R-QvTxMHTcY",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "Een jonge bruid worstelt met de schaduw van de overleden Rebecca op het landgoed van haar nieuwe echtgenoot.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Laurence Olivier" },
+      { "name": "Joan Fontaine" }
+    ],
+    "stills": [
+      "/assets/stills/re1.jpg",
+      "/assets/stills/re2.jpg",
+      "/assets/stills/re3.jpg"
+    ]  },
+  {
+    "title": "Foreign Correspondent",
+    "genre": "Thriller, War",
+    "director": "Alfred Hitchcock",
+    "country": "USA",
+    "year": 1940,
+    "runtime": 120,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/foreign_correspondent.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=R9-cxCjT8l8",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "Een Amerikaanse journalist raakt betrokken bij spionage en oorlogsslachtoffers tijdens zijn verblijf in Europa.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Joel McCrea" },
+      { "name": "Laraine Day" }
+    ],
+    "stills": [
+      "/assets/stills/fc1.jpg",
+      "/assets/stills/fc2.jpg",
+      "/assets/stills/fc3.jpg"
+    ]  },
+  {
+    "title": "Notorious",
+    "genre": "Thriller, Romance",
+    "director": "Alfred Hitchcock",
+    "country": "USA",
+    "year": 1946,
+    "runtime": 102,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/notorious.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=VYgcrNy3R3s",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "Een vrouw wordt gerekruteerd door de Amerikaanse overheid om te infiltreren in een nazi-genootschap in Zuid-Amerika.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Cary Grant" },
+      { "name": "Ingrid Bergman" }
+    ],
+    "stills": [
+      "/assets/stills/no1.jpg",
+      "/assets/stills/no2.jpg",
+      "/assets/stills/no3.jpg"
+    ]  },
+  {
+    "title": "Vivre Sa Vie",
+    "genre": "Drama",
+    "director": "Jean-Luc Godard",
+    "country": "France",
+    "year": 1962,
+    "runtime": 85,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/vivre_sa_vie.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=U8SuBN9RO5s",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A Parisian woman descends into prostitution while trying to maintain her dignity.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Anna Karina" },
+      { "name": "Sady Rebbot" }
+    ],
+    "stills": [
+      "/assets/stills/vsv1.jpg",
+      "/assets/stills/vsv2.jpg",
+      "/assets/stills/vsv3.jpg"
+    ]  },
+  {
+    "title": "City Girl",
+    "genre": "Drama, Silent",
+    "director": "F.W. Murnau",
+    "country": "USA",
+    "year": 1930,
+    "runtime": 84,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/city_girl.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=Y7lS_8vhwr0",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": true,
+    "description": "A young farmer marries a city girl, and their relationship faces challenges as they adjust to life together on the farm.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "Mary Duncan" },
+      { "name": "Charles Farrell" }
+    ],
+    "stills": [
+      "/assets/stills/cg1.jpg",
+      "/assets/stills/cg2.jpg",
+      "/assets/stills/cg3.jpg"
+    ]  },
+  {
+    "title": "Metropolis",
+    "genre": "Sci‑Fi, Drama",
+    "director": "Fritz Lang",
+    "country": "Germany",
+    "year": 1927,
+    "runtime": 150,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/metropolis.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=EgFaH96jq9E",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": true,
+    "description": "A dystopian epic about class struggle in a futuristic city. This is the reconstructed 2010 version with 25 lost minutes restored.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "Brigitte Helm" },
+      { "name": "Alfred Abel" }
+    ],
+    "stills": [
+      "/assets/stills/me1.jpg",
+      "/assets/stills/me2.jpg",
+      "/assets/stills/me3.jpg"
+    ]  },
+  {
+    "title": "Die Nibelungen",
+    "genre": "Fantasy, Adventure",
+    "director": "Fritz Lang",
+    "country": "Germany",
+    "year": 1924,
+    "runtime": 281,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/die_nibelungen.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=XYZ",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": true,
+    "description": "Lang's two‑part silent epic based on Norse legend — beautifully restored with documentary and booklet.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "Paul Richter" },
+      { "name": "Thea von Harbou" }
+    ],
+    "stills": [
+      "/assets/stills/dn1.jpg",
+      "/assets/stills/dn2.jpg",
+      "/assets/stills/dn3.jpg"
+    ]  },
+  {
+    "title": "M",
+    "genre": "Thriller, Crime",
+    "director": "Fritz Lang",
+    "country": "Germany",
+    "year": 1931,
+    "runtime": 110,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/m.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=Eg1CFRKde0E",
+    "aspectRatio": "1.19:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A chilling psychological thriller about a city's hunt for a child murderer, here in a stunning HD restoration.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "Peter Lorre" },
+      { "name": "Otto Wernicke" }
+    ],
+    "stills": [
+      "/assets/stills/m1.jpg",
+      "/assets/stills/m2.jpg",
+      "/assets/stills/m3.jpg"
+    ]  },
+  {
+    "title": "Sunrise: A Song of Two Humans",
+    "genre": "Drama, Silent, Romance",
+    "director": "F.W. Murnau",
+    "country": "USA",
+    "year": 1927,
+    "runtime": 95,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/sunrise.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=shgqBxa5KIs",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": true,
+    "description": "A married farmer’s wife plots to kill him, but he is saved by a city woman who helps him rediscover love.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "George O'Brien" },
+      { "name": "Janet Gaynor" }
+    ],
+    "stills": [
+      "/assets/stills/su1.jpg",
+      "/assets/stills/su2.jpg",
+      "/assets/stills/su3.jpg"
+    ]  },
+  {
+    "title": "Nosferatu, eine Symphonie des Grauens",
+    "genre": "Horror, Silent",
+    "director": "F.W. Murnau",
+    "country": "Duitsland",
+    "year": 1922,
+    "runtime": 94,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/nosferatu.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=eg1CFRKde0E",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": true,
+    "description": "An unauthorized adaptation of Dracula, telling the story of Count Orlok, a vampire who terrorizes a small town.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "Max Schreck" },
+      { "name": "Gustav von Wangenheim" },
+      { "name": "Greta Schröder" }
+    ],
+    "stills": [
+      "/assets/stills/no1.jpg",
+      "/assets/stills/no2.jpg",
+      "/assets/stills/no3.jpg"
+    ]  },
+  {
+    "title": "Rocco and His Brothers",
+    "genre": "Drama, Family",
+    "director": "Luchino Visconti",
+    "country": "Italy",
+    "year": 1960,
+    "runtime": 179,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/rocco_and_his_brothers.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=EgFaH96jq9E",
+    "aspectRatio": "1.85:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A struggling family from southern Italy relocates to Milan, facing rivalry, jealousy and tragedy as the brothers vie for success and love.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "Alain Delon" },
+      { "name": "Annie Girardot" },
+      { "name": "Renato Salvatori" }
+    ],
+    "stills": [
+      "/assets/stills/rahb1.jpg",
+      "/assets/stills/rahb2.jpg",
+      "/assets/stills/rahb3.jpg"
+    ]  },
+  {
+    "title": "I Clowns",
+    "genre": "Documentary, Fantasy",
+    "director": "Federico Fellini",
+    "country": "Italy",
+    "year": 1970,
+    "runtime": 92,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/i_clowns.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=QlT2F7D6SvI",
+    "aspectRatio": "1.33:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A mockumentary by Fellini exploring his lifelong fascination with clowns and the circus—part documentary, part fantasia.",
+    "brand": { "name": "Masters of Cinema" },
+    "actors": [
+      { "name": "Federico Fellini" },
+      { "name": "Riccardo Billi" },
+      { "name": "Tino Scotti" }
+    ],
+    "stills": [
+      "/assets/stills/ic1.jpg",
+      "/assets/stills/ic2.jpg",
+      "/assets/stills/ic3.jpg"
+    ]  },
+  {
+    "title": "Touch of Evil",
+    "genre": "Film Noir, Thriller",
+    "director": "Orson Welles",
+    "country": "USA",
+    "year": 1958,
+    "runtime": 110,
+    "weight": 150,
+    "type": "4K Ultra HD",
+    "price": 34.50,
+    "imageUrl": "/assets/covers/touch_of_evil.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=QlT2F7D6SvI",
+    "aspectRatio": "1.85:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "Een corrupte politiechef en een Mexicaanse agent raken verwikkeld in een duister moordcomplot langs de grens. De set bevat drie cuts (Theatrical, Preview, Reconstruction) in Dolby Vision HDR 4K.",
+    "brand": {
+      "name": "Masters of Cinema"
+    },
+    "actors": [
+      {"name": "Charlton Heston"},
+      {"name": "Janet Leigh"},
+      {"name": "Orson Welles"}
+    ],
+    "stills": [
+      "/assets/stills/toe1.jpg",
+      "/assets/stills/toe2.jpg",
+      "/assets/stills/toe3.jpg"
+    ]
+  },
+  {
+    "title": "Le Samouraï",
+    "genre": "Crime, Thriller",
+    "director": "Jean-Pierre Melville",
+    "country": "France",
+    "year": 1967,
+    "runtime": 105,
+    "weight": 150,
+    "type": "4K Ultra HD",
+    "price": 34.50,
+    "imageUrl": "/assets/covers/le_samourai.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=kZ1eFcyPHEE",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A hitman tries to outsmart both the police and his employers after a murder.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Alain Delon" },
+      { "name": "Nathalie Delon" }
+    ],
+    "stills": [
+      "/assets/stills/ls1.jpg",
+      "/assets/stills/ls2.jpg",
+      "/assets/stills/ls3.jpg"
+    ]  },
+  {
+    "title": "Identification of a Woman",
+    "genre": "Drama, Mystery",
+    "director": "Michelangelo Antonioni",
+    "country": "Italy",
+    "year": 1982,
+    "runtime": 130,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/identification_of_a_woman.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=QlT2F7D6SvI",
+    "aspectRatio": "1.85:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A film director's life becomes complicated as he tries to understand the mysterious women in his life.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Tomás Milián" },
+      { "name": "Magali Noël" }
+    ],
+    "stills": [
+      "/assets/stills/ioaw1.jpg",
+      "/assets/stills/ioaw2.jpg",
+      "/assets/stills/ioaw3.jpg"
+    ]  },
+  {
+    "title": "Bicycle Thieves",
+    "genre": "Drama",
+    "director": "Vittorio De Sica",
+    "country": "Italy",
+    "year": 1948,
+    "runtime": 89,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/bicycle_thieves.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=Z1H6L7npNR0",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A father and son search post-World War II Rome for a stolen bicycle essential for the father's job.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Lamberto Maggiorani" },
+      { "name": "Enzo Staiola" }
+    ],
+    "stills": [
+      "/assets/stills/bt1.jpg",
+      "/assets/stills/bt2.jpg",
+      "/assets/stills/bt3.jpg"
+    ]  },
+  {
+    "title": "Umberto D.",
+    "genre": "Drama",
+    "director": "Vittorio De Sica",
+    "country": "Italy",
+    "year": 1952,
+    "runtime": 89,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/umberto_d.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=xmZc-Kchp3w",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "An elderly man struggles to maintain his dignity and home on a meager pension in postwar Rome.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Carlo Battisti" },
+      { "name": "Lina Gennari" }
+    ],
+    "stills": [
+      "/assets/stills/ud1.jpg",
+      "/assets/stills/ud2.jpg",
+      "/assets/stills/ud3.jpg"
+    ]  },
+  {
+    "title": "Red Desert",
+    "genre": "Drama",
+    "director": "Michelangelo Antonioni",
+    "country": "Italy",
+    "year": 1964,
+    "runtime": 105,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/red_desert.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=ksxG9x9AosE",
+    "aspectRatio": "2.35:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A woman struggles with her mental health in a bleak industrial landscape.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Monica Vitti" },
+      { "name": "Richard Harris" }
+    ],
+    "stills": [
+      "/assets/stills/rd1.jpg",
+      "/assets/stills/rd2.jpg",
+      "/assets/stills/rd3.jpg"
+    ]  },
+  {
+    "title": "Wild Strawberries",
+    "genre": "Drama",
+    "director": "Ingmar Bergman",
+    "country": "Sweden",
+    "year": 1957,
+    "runtime": 91,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/wild_strawberries.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=XY8amUImEu0",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "An aging professor confronts his past during a road trip, blending dreamlike sequences with poignant memories.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Victor Sjöström" },
+      { "name": "Bibi Andersson" },
+      { "name": "Ingrid Thulin" }
+    ],
+    "stills": [
+      "/assets/stills/ws1.jpg",
+      "/assets/stills/ws2.jpg",
+      "/assets/stills/ws3.jpg"
+    ]  },
+  {
+    "title": "Persona",
+    "genre": "Psychological Drama",
+    "director": "Ingmar Bergman",
+    "country": "Sweden",
+    "year": 1966,
+    "runtime": 85,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/persona.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=2z3b9fWZ-1M",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A nurse and her patient — a mute actress — develop a mysterious, shifting bond in this haunting psychological drama.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Bibi Andersson" },
+      { "name": "Liv Ullmann" }
+    ],
+    "stills": [
+      "/assets/stills/pe1.jpg",
+      "/assets/stills/pe2.jpg",
+      "/assets/stills/pe3.jpg"
+    ]  },
+  {
+    "title": "Autumn Sonata",
+    "genre": "Drama",
+    "director": "Ingmar Bergman",
+    "country": "Sweden",
+    "year": 1978,
+    "runtime": 93,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/autumn_sonata.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=6-VRijREi8w",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A celebrated pianist visits her estranged daughter, leading to an emotional reckoning over past grievances.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Ingrid Bergman" },
+      { "name": "Liv Ullmann" }
+    ],
+    "stills": [
+      "/assets/stills/as1.jpg",
+      "/assets/stills/as2.jpg",
+      "/assets/stills/as3.jpg"
+    ]  },
+  {
+    "title": "8½",
+    "genre": "Drama, Fantasy",
+    "director": "Federico Fellini",
+    "country": "Italy",
+    "year": 1963,
+    "runtime": 138,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/8.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=Gniz-YrOqPI",
+    "aspectRatio": "2.35:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A famous Italian director struggles with creative block while trying to make a new film.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Marcello Mastroianni" },
+      { "name": "Anouk Aimée" }
+    ],
+    "stills": [
+      "/assets/stills/81.jpg",
+      "/assets/stills/82.jpg",
+      "/assets/stills/83.jpg"
+    ]  },
+  {
+    "title": "Amarcord",
+    "genre": "Comedy, Drama",
+    "director": "Federico Fellini",
+    "country": "Italy",
+    "year": 1973,
+    "runtime": 123,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/Amarcord.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=tiIoMQoD6K4",
+    "aspectRatio": "2.35:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A nostalgic look back at a quirky Italian town in the 1930s.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Bruno Zanin" },
+      { "name": "Magali Noël" }
+    ],
+    "stills": [
+      "/assets/stills/am1.jpg",
+      "/assets/stills/am2.jpg",
+      "/assets/stills/am3.jpg"
+    ]  },
+  {
+    "title": "La Strada",
+    "genre": "Drama",
+    "director": "Federico Fellini",
+    "country": "Italy",
+    "year": 1954,
+    "runtime": 94,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/la_strada.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=RmD2HvAJ9NQ",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A touching tale of a simple girl sold to a traveling strongman.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Anthony Quinn" },
+      { "name": "Giulietta Masina" }
+    ],
+    "stills": [
+      "/assets/stills/ls1.jpg",
+      "/assets/stills/ls2.jpg",
+      "/assets/stills/ls3.jpg"
+    ]  },
+  {
+    "title": "Army of Shadows",
+    "genre": "Drama, War",
+    "director": "Jean-Pierre Melville",
+    "country": "France",
+    "year": 1969,
+    "runtime": 145,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/army_of_shadows.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=Hq3eNxn0YbM",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "The story of French resistance fighters during WWII struggling to survive.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Lino Ventura" },
+      { "name": "Paul Meurisse" }
+    ],
+    "stills": [
+      "/assets/stills/aos1.jpg",
+      "/assets/stills/aos2.jpg",
+      "/assets/stills/aos3.jpg"
+    ]  },
+  {
+    "title": "Bob le flambeur",
+    "genre": "Crime, Drama",
+    "director": "Jean-Pierre Melville",
+    "country": "France",
+    "year": 1956,
+    "runtime": 95,
+    "weight": 125,
+    "type": "DVD",
+    "price": 24.50,
+    "imageUrl": "/assets/covers/bob_le_flambeur.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=BgSLz7HrT84",
+    "aspectRatio": "1.37:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "A seasoned gambler plans one last heist with his young protege.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Roger Duchesne" },
+      { "name": "Dany Carrel" }
+    ],
+    "stills": [
+      "/assets/stills/blf1.jpg",
+      "/assets/stills/blf2.jpg",
+      "/assets/stills/blf3.jpg"
+    ]  },
+  {
+    "title": "Band of Outsiders",
+    "genre": "Crime, Drama",
+    "director": "Jean-Luc Godard",
+    "country": "France",
+    "year": 1964,
+    "runtime": 91,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/band_of_outsiders.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=QYgT2T0g9pY",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Black & White",
+    "silent": false,
+    "description": "Three young people plan a robbery and their friendship is tested.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Anna Karina" },
+      { "name": "Sami Frey" }
+    ],
+    "stills": [
+      "/assets/stills/bou1.jpg",
+      "/assets/stills/bou2.jpg",
+      "/assets/stills/bou3.jpg"
+    ]  },
+  {
+    "title": "Day for Night",
+    "genre": "Drama",
+    "director": "François Truffaut",
+    "country": "France",
+    "year": 1973,
+    "runtime": 115,
+    "weight": 100,
+    "type": "Blu-ray",
+    "price": 29.50,
+    "imageUrl": "/assets/covers/day_for_night.jpg",
+    "trailerUrl": "https://www.youtube.com/watch?v=5PX-Ihmt8iQ",
+    "aspectRatio": "1.66:1",
+    "colorOrBlackAndWhite": "Color",
+    "silent": false,
+    "description": "A film about the trials and tribulations of making a movie.",
+    "brand": { "name": "Criterion Collection" },
+    "actors": [
+      { "name": "Jacques Dutronc" },
+      { "name": "Nathalie Baye" }
+    ],
+    "stills": [
+      "/assets/stills/dfn1.jpg",
+      "/assets/stills/dfn2.jpg",
+      "/assets/stills/dfn3.jpg"
+    ]
+  },
+  {
+      "title": "A Matter of Life and Death",
+      "genre": "Fantasy, Romance",
+      "director": "Michael Powell & Emeric Pressburger",
+      "country": "Verenigd Koninkrijk",
+      "year": 1946,
+      "runtime": 104,
+    "weight": 100,
+      "type": "Blu-ray",
+    "price": 29.50,
+      "imageUrl": "/assets/covers/a_matter_of_life_and_death.jpg",
+      "trailerUrl": "https://www.youtube.com/watch?v=4x0qe3tao6g0l1k2zv4dz5y2v",
+      "aspectRatio": "1.37:1",
+      "colorOrBlackAndWhite": "Technicolor",
+    "silent": false,
+      "description": "Een Britse piloot overleeft een neerstortingsongeluk en komt terecht in een surrealistisch rechtszaak in het hiernamaals, terwijl hij vecht voor zijn leven.",
+      "brand": { "name": "Criterion Collection" },
+      "actors": [
+        { "name": "David Niven" },
+        { "name": "Kim Hunter" }
+      ],
+    "stills": [
+      "/assets/stills/amolad1.jpg",
+      "/assets/stills/amolad2.jpg",
+      "/assets/stills/amolad3.jpg"
+    ]    }
+  ]
