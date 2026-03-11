@@ -1,10 +1,13 @@
 package homecinema.controller;
 
+import homecinema.dto.UpdateAddressRequest;
+import homecinema.dto.UserProfileResponse;
 import homecinema.model.Address;
 import homecinema.model.User;
 import homecinema.repository.UserRepository;
-import lombok.Getter;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
@@ -33,31 +36,51 @@ public class AccountController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
-    @Getter
-    public static class UpdateAddressRequest {
-        private String email;
-        private String street;
-        private String postalCode;
-        private String city;
-        private String country;
+    @PutMapping
+    public ResponseEntity<User> updateAccount(@AuthenticationPrincipal UserDetails userDetails,
+                                              @RequestBody UpdateAddressRequest request) {
+        String email = userDetails != null ? userDetails.getUsername() : request.getEmail();
+        if (email == null || email.isBlank()) {
+            return ResponseEntity.badRequest().build();
+        }
 
-        public void setEmail(String email) { this.email = email; }
-        public void setStreet(String street) { this.street = street; }
-        public void setPostalCode(String postalCode) { this.postalCode = postalCode; }
-        public void setCity(String city) { this.city = city; }
-        public void setCountry(String country) { this.country = country; }
+        return userRepository.findByEmail(email).map(user -> {
+            Address address = new Address();
+            address.setStreet(request.getStreet());
+            address.setPostalCode(request.getPostalCode());
+            address.setCity(request.getCity());
+            address.setCountry(request.getCountry());
+
+            user.setAddress(address);
+            return ResponseEntity.ok(userRepository.save(user));
+        }).orElse(ResponseEntity.notFound().build());
     }
 
-    @PutMapping
-    public ResponseEntity<User> updateAccount(@RequestBody UpdateAddressRequest request) {
-        System.out.println("PUT /api/account ontvangen:");
-        System.out.println("- Email: " + request.getEmail());
-        System.out.println("- Straat: " + request.getStreet());
-        System.out.println("- Postcode: " + request.getPostalCode());
-        System.out.println("- Stad: " + request.getCity());
-        System.out.println("- Land: " + request.getCountry());
+    @GetMapping("/me")
+    public ResponseEntity<UserProfileResponse> getMyAccount(@AuthenticationPrincipal UserDetails userDetails) {
+        if (userDetails == null) {
+            return ResponseEntity.status(401).build();
+        }
 
-        return userRepository.findByEmail(request.getEmail()).map(user -> {
+        return userRepository.findByEmail(userDetails.getUsername())
+                .map(user -> ResponseEntity.ok(new UserProfileResponse(
+                        user.getId(),
+                        user.getEmail(),
+                        user.getUsername(),
+                        user.getRole(),
+                        user.getAddress()
+                )))
+                .orElse(ResponseEntity.notFound().build());
+    }
+
+    @PutMapping("/me/address")
+    public ResponseEntity<UserProfileResponse> updateMyAccount(@AuthenticationPrincipal UserDetails userDetails,
+                                                               @RequestBody UpdateAddressRequest request) {
+        if (userDetails == null) {
+            return ResponseEntity.status(401).build();
+        }
+
+        return userRepository.findByEmail(userDetails.getUsername()).map(user -> {
             Address address = new Address();
             address.setStreet(request.getStreet());
             address.setPostalCode(request.getPostalCode());
@@ -67,11 +90,13 @@ public class AccountController {
             user.setAddress(address);
             userRepository.save(user);
 
-            System.out.println("Adres succesvol bijgewerkt voor gebruiker: " + user.getEmail());
-            return ResponseEntity.ok(user);
-        }).orElseGet(() -> {
-            System.out.println("Gebruiker niet gevonden voor email: " + request.getEmail());
-            return ResponseEntity.notFound().build();
-        });
+            return ResponseEntity.ok(new UserProfileResponse(
+                    user.getId(),
+                    user.getEmail(),
+                    user.getUsername(),
+                    user.getRole(),
+                    user.getAddress()
+            ));
+        }).orElse(ResponseEntity.notFound().build());
     }
 }
