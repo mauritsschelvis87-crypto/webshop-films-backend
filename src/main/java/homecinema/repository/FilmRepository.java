@@ -12,6 +12,8 @@ public interface FilmRepository extends JpaRepository<Film, Long> {
 
     Optional<Film> findByTitle(String title); // exact zoeken, handig voor seeder
 
+    List<Film> findAllByTitle(String title);
+
     List<Film> findByTitleContainingIgnoreCase(String title);
 
     List<Film> findByGenreContainingIgnoreCase(String genre);

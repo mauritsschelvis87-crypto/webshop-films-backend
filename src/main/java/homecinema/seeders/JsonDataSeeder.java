@@ -15,6 +15,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -55,7 +56,13 @@ public class JsonDataSeeder implements CommandLineRunner {
                             .orElseGet(() -> actorRepository.save(new Actor(aJson.getName()))))
                     .collect(Collectors.toSet());
 
-            Film film = new Film();
+            List<Film> existingFilms = new ArrayList<>(filmRepository.findAllByTitle(fj.getTitle()));
+            Film film = existingFilms.isEmpty() ? new Film() : existingFilms.get(0);
+
+            if (existingFilms.size() > 1) {
+                filmRepository.deleteAll(existingFilms.subList(1, existingFilms.size()));
+            }
+
             film.setTitle(fj.getTitle());
             film.setGenre(fj.getGenre());
             film.setDirector(fj.getDirector());
