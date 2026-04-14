@@ -2,7 +2,7 @@
 
 ## Feature
 The webshop includes a **collection feature** where users can track the movies they own at home.  
-On this collection screen, users can also assign a **rating** to each movie.
+On this collection screen (/collection), users can also assign a **rating** to each movie.
 
 This data (owned movies + ratings) is used to power a recommendation algorithm that suggests new movies for purchase.
 
@@ -53,10 +53,12 @@ The algorithm first looks at the ratings a user has given to movies in their col
 
 ### Rule 1: Strongest positive rating
 If a movie has received a rating of;
-- either 4 stars (out of 5)
-- or 5 stars
+- Either 4 stars (out of 5)
+- Or 5 stars
+- Step 1 will randomize the output by randomly selecting a high rated movie out of the top 3 contestants.
 
 Maximum output consists of **2 recommendations**
+
 
 ---
 ### Step 2
@@ -82,3 +84,19 @@ After the first two steps and considering the constraints, the algorithm adds a 
 - 1 random movie recommendation
 
 Maximum output consists of **1 recommendation**
+
+---
+### Step 4
+The algorithm will only be complete if there are a total of 4 movie recommendations.
+
+### Rule 4: Fillers
+If the algorithm produces fewer than 4 recommendations, the remaining slots will be filled by using the user’s collection as a reference point.
+
+The filler recommendation should:
+
+- Look at the country of origin most present in the user’s collection
+- Calculate the average release year of movies from that country in the collection
+- Recommend a movie from the same country of origin
+- Select the movie with the closest release year to that average
+- Exclude movies already owned by the user
+- Respect format and region constraints

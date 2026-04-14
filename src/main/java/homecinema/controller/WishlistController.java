@@ -1,9 +1,11 @@
 package homecinema.controller;
 
+import homecinema.dto.FilmRatingRequest;
 import homecinema.model.Film;
 import homecinema.model.User;
 import homecinema.repository.FilmRepository;
 import homecinema.repository.UserRepository;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -25,7 +27,7 @@ public class WishlistController {
     public List<Film> getWishlist(@PathVariable Long userId) {
         User user = userRepository.findById(userId)
                 .orElseThrow(() -> new RuntimeException("Gebruiker niet gevonden!"));
-        return user.getWishlist();
+        return enrichWishlistWithRatings(user);
     }
 
     @PostMapping("/{userId}/add/{filmId}")
@@ -40,7 +42,7 @@ public class WishlistController {
             userRepository.save(user);
         }
 
-        return user.getWishlist();
+        return enrichWishlistWithRatings(user);
     }
 
     @DeleteMapping("/{userId}/remove/{filmId}")
@@ -49,8 +51,40 @@ public class WishlistController {
                 .orElseThrow(() -> new RuntimeException("User not found"));
 
         user.getWishlist().removeIf(f -> f.getId().equals(filmId));
+        user.getFilmRatings().remove(filmId);
         userRepository.save(user);
 
+        return enrichWishlistWithRatings(user);
+    }
+
+    @PutMapping("/{userId}/rating/{filmId}")
+    public ResponseEntity<List<Film>> rateWishlistFilm(@PathVariable Long userId,
+                                                       @PathVariable Long filmId,
+                                                       @RequestBody FilmRatingRequest request) {
+        User user = userRepository.findById(userId)
+                .orElseThrow(() -> new RuntimeException("Gebruiker niet gevonden!"));
+
+        Film film = user.getWishlist().stream()
+                .filter(item -> item.getId().equals(filmId))
+                .findFirst()
+                .orElse(null);
+
+        if (film == null) {
+            return ResponseEntity.badRequest().build();
+        }
+
+        Integer rating = request.getRating();
+        if (rating == null || rating < 1 || rating > 5) {
+            return ResponseEntity.badRequest().build();
+        }
+
+        user.getFilmRatings().put(filmId, rating);
+        userRepository.save(user);
+        return ResponseEntity.ok(enrichWishlistWithRatings(user));
+    }
+
+    private List<Film> enrichWishlistWithRatings(User user) {
+        user.getWishlist().forEach(film -> film.setUserRating(user.getFilmRatings().get(film.getId())));
         return user.getWishlist();
     }
 }

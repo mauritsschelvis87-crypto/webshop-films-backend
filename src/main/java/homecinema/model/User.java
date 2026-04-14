@@ -5,7 +5,9 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Getter
 @Setter
@@ -30,5 +32,11 @@ public class User extends BaseEntity {
             inverseJoinColumns = @JoinColumn(name = "film_id")
     )
     private List<Film> wishlist = new ArrayList<>();
+
+    @ElementCollection
+    @CollectionTable(name = "user_film_ratings", joinColumns = @JoinColumn(name = "user_id"))
+    @MapKeyColumn(name = "film_id")
+    @Column(name = "rating")
+    private Map<Long, Integer> filmRatings = new HashMap<>();
 
 }

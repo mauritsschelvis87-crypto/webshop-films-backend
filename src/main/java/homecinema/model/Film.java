@@ -41,4 +41,7 @@ public class Film extends BaseEntity {
     @CollectionTable(name = "film_stills", joinColumns = @JoinColumn(name = "film_id"))
     @Column(name = "still_url")
     private List<String> stills;
+
+    @Transient
+    private Integer userRating;
 }
