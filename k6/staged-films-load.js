@@ -1,3 +1,6 @@
+//k6 run .\k6\staged-films-load.js
+//simuleert oplopende load van films bekijken met meerdere virtual users tegelijk
+
 import http from 'k6/http';
 import { check, sleep } from 'k6';
 import { Rate, Trend } from 'k6/metrics';

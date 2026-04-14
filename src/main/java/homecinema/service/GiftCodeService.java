@@ -35,6 +35,21 @@ public class GiftCodeService {
         return giftCodeRepository.findByCode(code);
     }
 
+    public GiftCode getRedeemableCode(String code) {
+        GiftCode giftCode = giftCodeRepository.findByCode(code)
+                .orElseThrow(() -> new RuntimeException("Invalid gift code"));
+
+        if (giftCode.isRedeemed()) {
+            throw new RuntimeException("Gift code already redeemed");
+        }
+
+        if (giftCode.getExpirationDate().isBefore(LocalDateTime.now())) {
+            throw new RuntimeException("Gift code expired");
+        }
+
+        return giftCode;
+    }
+
     public GiftCode redeemCode(GiftCode giftCode, Film redeemedFilm, String redeemerEmail) {
         giftCode.setRedeemed(true);
         giftCode.setRedeemedFilm(redeemedFilm);

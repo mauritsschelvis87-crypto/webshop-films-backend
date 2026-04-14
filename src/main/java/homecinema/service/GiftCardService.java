@@ -1,6 +1,7 @@
 package homecinema.service;
 
 import homecinema.model.GiftCard;
+import homecinema.model.Order;
 import homecinema.model.User;
 import homecinema.repository.GiftCardRepository;
 import homecinema.repository.UserRepository;
@@ -31,7 +32,7 @@ public class GiftCardService {
         return giftCardRepository.findByCode(code);
     }
 
-    public GiftCard redeemGiftCard(String code, Long userId) {
+    public GiftCard getUsableGiftCard(String code) {
         GiftCard card = giftCardRepository.findByCode(code)
                 .orElseThrow(() -> new RuntimeException("Giftcard code not found"));
 
@@ -39,12 +40,23 @@ public class GiftCardService {
             throw new RuntimeException("Giftcard already used");
         }
 
+        return card;
+    }
+
+    public GiftCard redeemGiftCard(String code, Long userId) {
+        GiftCard card = getUsableGiftCard(code);
         User user = userRepository.findById(userId)
                 .orElseThrow(() -> new RuntimeException("User not found"));
 
         card.setUsed(true);
         card.setUsedBy(user);
 
+        return giftCardRepository.save(card);
+    }
+
+    public GiftCard applyGiftCardToOrder(GiftCard card, User user, Order order) {
+        card.setUsed(true);
+        card.setUsedBy(user);
         return giftCardRepository.save(card);
     }
 }

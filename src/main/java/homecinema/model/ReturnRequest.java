@@ -5,10 +5,7 @@ import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
-public class ReturnRequest {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class ReturnRequest extends BaseEntity {
 
     @ManyToOne
     private OrderItem orderItem;
@@ -21,10 +18,6 @@ public class ReturnRequest {
     private String photoUrl;
     private LocalDateTime requestDate;
     private String backupAddress;
-
-
-    public Long getId() { return id; }
-    public void setId(Long id) { this.id = id; }
     public OrderItem getOrderItem() { return orderItem; }
     public void setOrderItem(OrderItem orderItem) { this.orderItem = orderItem; }
     public String getReturnReason() { return returnReason; }

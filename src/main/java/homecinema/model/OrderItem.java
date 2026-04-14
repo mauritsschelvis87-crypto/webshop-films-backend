@@ -6,11 +6,8 @@ import lombok.Getter;
 
 @Getter
 @Entity
-public class OrderItem {
+public class OrderItem extends BaseEntity {
     // Getters and setters
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
     private int quantity;
     private double price;
 
@@ -23,7 +20,6 @@ public class OrderItem {
 
     @ManyToOne
     private Boxset boxset;
-    public void setId(Long id) { this.id = id; }
     public void setQuantity(int quantity) { this.quantity = quantity; }
     public void setPrice(double price) { this.price = price; }
     public void setOrder(Order order) { this.order = order; }

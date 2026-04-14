@@ -2,7 +2,6 @@ package homecinema.controller;
 
 import homecinema.dto.OrderRequestDTO;
 import homecinema.dto.OrderResponseDTO;
-import homecinema.model.Order;
 import homecinema.service.OrderNotFoundException;
 import homecinema.service.OrderService;
 import org.springframework.http.ResponseEntity;
@@ -53,8 +52,24 @@ public class OrderController {
     @PostMapping
     public ResponseEntity<?> placeOrder(@RequestBody OrderRequestDTO request) {
         try {
-            Order order = orderService.createOrderFromDto(request);
+            OrderResponseDTO order = orderService.createOrderFromDto(request);
             return ResponseEntity.ok(order);
+        } catch (IllegalArgumentException | OrderNotFoundException e) {
+            Map<String, String> error = new HashMap<>();
+            error.put("error", e.getMessage());
+            return ResponseEntity.badRequest().body(error);
+        } catch (Exception e) {
+            Map<String, String> error = new HashMap<>();
+            error.put("error", "Internal server error: " + e.getMessage());
+            return ResponseEntity.status(500).body(error);
+        }
+    }
+
+    @PostMapping("/preview")
+    public ResponseEntity<?> previewOrder(@RequestBody OrderRequestDTO request) {
+        try {
+            OrderResponseDTO preview = orderService.previewOrderFromDto(request);
+            return ResponseEntity.ok(preview);
         } catch (IllegalArgumentException | OrderNotFoundException e) {
             Map<String, String> error = new HashMap<>();
             error.put("error", e.getMessage());

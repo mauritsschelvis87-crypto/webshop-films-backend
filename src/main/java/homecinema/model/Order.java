@@ -8,10 +8,8 @@ import java.util.List;
 
 @Entity
 @Table(name = "orders")
-public class Order {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class Order extends BaseEntity {
+
     private String number;
     private String status;
     private LocalDateTime orderDate;
@@ -22,15 +20,11 @@ public class Order {
     @OneToMany(mappedBy = "order", cascade = CascadeType.ALL)
     @JsonManagedReference
     private List<OrderItem> orderItems;
+    private double subtotalPrice;
+    private double discountAmount;
     private double totalPrice;
-
-
-    public Long getId() {
-        return id;
-    }
-    public void setId(Long id) {
-        this.id = id;
-    }
+    private String appliedGiftCardCode;
+    private String appliedGiftCode;
     public String getNumber() {
         return number;
     }
@@ -66,5 +60,29 @@ public class Order {
     }
     public void setTotalPrice(double totalPrice) {
         this.totalPrice = totalPrice;
+    }
+    public double getSubtotalPrice() {
+        return subtotalPrice;
+    }
+    public void setSubtotalPrice(double subtotalPrice) {
+        this.subtotalPrice = subtotalPrice;
+    }
+    public double getDiscountAmount() {
+        return discountAmount;
+    }
+    public void setDiscountAmount(double discountAmount) {
+        this.discountAmount = discountAmount;
+    }
+    public String getAppliedGiftCardCode() {
+        return appliedGiftCardCode;
+    }
+    public void setAppliedGiftCardCode(String appliedGiftCardCode) {
+        this.appliedGiftCardCode = appliedGiftCardCode;
+    }
+    public String getAppliedGiftCode() {
+        return appliedGiftCode;
+    }
+    public void setAppliedGiftCode(String appliedGiftCode) {
+        this.appliedGiftCode = appliedGiftCode;
     }
 }

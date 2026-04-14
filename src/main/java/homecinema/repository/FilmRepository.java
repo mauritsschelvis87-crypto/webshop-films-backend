@@ -4,6 +4,7 @@ import homecinema.model.Film;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
+import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
 
@@ -13,6 +14,7 @@ public interface FilmRepository extends JpaRepository<Film, Long> {
     Optional<Film> findByTitle(String title); // exact zoeken, handig voor seeder
 
     List<Film> findAllByTitle(String title);
+    List<Film> findAllByTitleIn(Collection<String> titles);
 
     List<Film> findByTitleContainingIgnoreCase(String title);
 

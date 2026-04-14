@@ -8,6 +8,8 @@ import java.util.List;
 public class OrderRequestDTO {
     private String username;
     private double totalPrice;
+    private String giftCardCode;
+    private String giftCode;
     private List<OrderItemDTO> items;
 
     @Data

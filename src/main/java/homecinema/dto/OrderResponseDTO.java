@@ -8,8 +8,14 @@ import java.util.List;
 @Data
 public class OrderResponseDTO {
     private Long id;
+    private String number;
+    private String status;
     private LocalDateTime orderDate;
+    private double subtotalPrice;
+    private double discountAmount;
     private double totalPrice;
+    private String appliedGiftCardCode;
+    private String appliedGiftCode;
     private List<OrderItemDTO> orderItems;
 
     @Data

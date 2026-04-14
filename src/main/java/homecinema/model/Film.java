@@ -10,11 +10,8 @@ import java.util.Set;
 @Setter
 @Getter
 @Entity
-public class Film {
+public class Film extends BaseEntity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
     private String title;
     private String genre;
     private String director;

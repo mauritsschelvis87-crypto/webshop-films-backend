@@ -1,3 +1,7 @@
+//k6 run .\k6\smoke-films.js
+//checkt films-endpoint of deze gezond is
+
+
 import http from 'k6/http';
 import { check, sleep } from 'k6';
 import { assertK6Runtime, BASE_URL } from './config.js';

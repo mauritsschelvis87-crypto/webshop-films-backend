@@ -16,7 +16,11 @@ import org.springframework.stereotype.Component;
 
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -46,17 +50,19 @@ public class JsonDataSeeder implements CommandLineRunner {
         }
 
         List<FilmJson> filmsJson = objectMapper.readValue(inputStream, new TypeReference<>() {});
+        Map<String, Brand> brandsByName = loadBrandsByName(filmsJson);
+        Map<String, Actor> actorsByName = loadActorsByName(filmsJson);
+        Map<String, List<Film>> filmsByTitle = filmRepository.findAllByTitleIn(extractTitles(filmsJson)).stream()
+                .collect(Collectors.groupingBy(Film::getTitle));
 
         for (FilmJson fj : filmsJson) {
-            Brand brand = brandRepository.findByName(fj.getBrand().getName())
-                    .orElseGet(() -> brandRepository.save(new Brand(fj.getBrand().getName())));
+            Brand brand = brandsByName.get(fj.getBrand().getName());
 
             Set<Actor> actors = fj.getActors().stream()
-                    .map(aJson -> actorRepository.findByName(aJson.getName())
-                            .orElseGet(() -> actorRepository.save(new Actor(aJson.getName()))))
+                    .map(aJson -> actorsByName.get(aJson.getName()))
                     .collect(Collectors.toSet());
 
-            List<Film> existingFilms = new ArrayList<>(filmRepository.findAllByTitle(fj.getTitle()));
+            List<Film> existingFilms = new ArrayList<>(filmsByTitle.getOrDefault(fj.getTitle(), List.of()));
             Film film = existingFilms.isEmpty() ? new Film() : existingFilms.get(0);
 
             if (existingFilms.size() > 1) {
@@ -83,10 +89,61 @@ public class JsonDataSeeder implements CommandLineRunner {
 
             film.setSilent(fj.getSilent() != null ? fj.getSilent() : false);
 
-            filmRepository.save(film);
+            Film savedFilm = filmRepository.save(film);
+            filmsByTitle.put(fj.getTitle(), new ArrayList<>(List.of(savedFilm)));
         }
 
         System.out.println("Seed data geladen!");
+    }
+
+    private Map<String, Brand> loadBrandsByName(List<FilmJson> filmsJson) {
+        Set<String> brandNames = filmsJson.stream()
+                .map(FilmJson::getBrand)
+                .map(BrandJson::getName)
+                .collect(Collectors.toCollection(HashSet::new));
+
+        Map<String, Brand> brandsByName = brandRepository.findByNameIn(brandNames).stream()
+                .collect(Collectors.toMap(Brand::getName, brand -> brand));
+
+        List<Brand> newBrands = brandNames.stream()
+                .filter(name -> !brandsByName.containsKey(name))
+                .map(Brand::new)
+                .toList();
+
+        for (Brand brand : brandRepository.saveAll(newBrands)) {
+            brandsByName.put(brand.getName(), brand);
+        }
+
+        return brandsByName;
+    }
+
+    private Map<String, Actor> loadActorsByName(List<FilmJson> filmsJson) {
+        Set<String> actorNames = filmsJson.stream()
+                .map(FilmJson::getActors)
+                .filter(actors -> actors != null)
+                .flatMap(Collection::stream)
+                .map(ActorJson::getName)
+                .collect(Collectors.toCollection(HashSet::new));
+
+        Map<String, Actor> actorsByName = actorRepository.findByNameIn(actorNames).stream()
+                .collect(Collectors.toMap(Actor::getName, actor -> actor));
+
+        List<Actor> newActors = actorNames.stream()
+                .filter(name -> !actorsByName.containsKey(name))
+                .map(Actor::new)
+                .toList();
+
+        for (Actor actor : actorRepository.saveAll(newActors)) {
+            actorsByName.put(actor.getName(), actor);
+        }
+
+        return actorsByName;
+    }
+
+    private Set<String> extractTitles(List<FilmJson> filmsJson) {
+        return filmsJson.stream()
+                .map(FilmJson::getTitle)
+                .collect(Collectors.toCollection(HashSet::new));
     }
 
     @Getter

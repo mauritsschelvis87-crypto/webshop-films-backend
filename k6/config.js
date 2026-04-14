@@ -2,7 +2,7 @@ const env = globalThis.__ENV ?? {};
 const vu = globalThis.__VU ?? 0;
 const iter = globalThis.__ITER ?? 0;
 
-export const BASE_URL = env.BASE_URL || 'http://localhost:8080';
+export const BASE_URL = env.BASE_URL || 'http://s1156856.student.inf.st.hsleiden.nl:26856';
 
 export const defaultHeaders = {
   'Content-Type': 'application/json',

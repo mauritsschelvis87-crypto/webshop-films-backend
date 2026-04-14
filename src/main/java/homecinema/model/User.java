@@ -11,11 +11,7 @@ import java.util.List;
 @Setter
 @Entity
 @Table(name = "users")
-public class User {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class User extends BaseEntity {
 
     @Column(unique = true)
     private String username;

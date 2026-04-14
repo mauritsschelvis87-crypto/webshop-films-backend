@@ -10,11 +10,7 @@ import java.time.LocalDateTime;
 @Setter
 @Entity
 @Table(name = "gift_codes")
-public class GiftCode {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class GiftCode extends BaseEntity {
 
     @Column(unique = true, nullable = false)
     private String code;

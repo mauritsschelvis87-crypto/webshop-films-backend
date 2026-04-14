@@ -13,11 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class GiftCard {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class GiftCard extends BaseEntity {
 
     @Column(unique = true, nullable = false)
     private String code;

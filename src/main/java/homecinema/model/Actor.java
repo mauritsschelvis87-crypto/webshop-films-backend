@@ -1,23 +1,13 @@
 package homecinema.model;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import lombok.Getter;
-import lombok.Setter;
 
-@Getter
-@Setter
 @Entity
-public class Actor {
+public class Actor extends NamedEntity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private String name;
     public Actor() {}
+
     public Actor(String name) {
-        this.name = name;
+        super(name);
     }
 }
