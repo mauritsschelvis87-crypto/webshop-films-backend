@@ -1,6 +1,7 @@
 package homecinema.service;
 
 import homecinema.model.Film;
+import homecinema.model.enums.FilmRegion;
 import homecinema.repository.FilmRepository;
 import org.springframework.stereotype.Service;
 
@@ -27,11 +28,18 @@ public class FilmService {
     }
 
     public Film save(Film film) {
+        applyRegionRules(film);
         return filmRepository.save(film);
     }
 
     public void delete(Long id) {
         filmRepository.deleteById(id);
+    }
+
+    private void applyRegionRules(Film film) {
+        if (film != null && "4K Ultra HD".equalsIgnoreCase(film.getType())) {
+            film.setRegion(FilmRegion.FREE);
+        }
     }
 
 }

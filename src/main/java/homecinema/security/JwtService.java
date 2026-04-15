@@ -1,10 +1,10 @@
 package homecinema.security;
 
 import io.jsonwebtoken.Claims;
+import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.security.Keys;
-import io.jsonwebtoken.security.SecurityException;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
@@ -43,8 +43,9 @@ public class JwtService {
     }
 
     public boolean isTokenValid(String token, UserDetails userDetails) {
-        return extractUsername(token).equals(userDetails.getUsername())
-                && extractAllClaims(token).getExpiration().after(new Date());
+        Claims claims = extractAllClaims(token);
+        return claims.getSubject().equals(userDetails.getUsername())
+                && claims.getExpiration().after(new Date());
     }
 
     public long getExpirationMs() {
@@ -58,7 +59,7 @@ public class JwtService {
                     .build()
                     .parseClaimsJws(token)
                     .getBody();
-        } catch (SecurityException | IllegalArgumentException ex) {
+        } catch (JwtException | IllegalArgumentException ex) {
             throw new IllegalArgumentException("Invalid JWT token", ex);
         }
     }

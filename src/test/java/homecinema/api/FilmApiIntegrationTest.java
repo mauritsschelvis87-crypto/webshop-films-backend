@@ -16,6 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -61,6 +62,38 @@ class FilmApiIntegrationTest {
                         .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.region").value("A"));
+    }
+
+    @Test
+    void creatingFourKUltraHdFilmForcesRegionFree() throws Exception {
+        Brand brand = brandRepository.save(new Brand("Criterion Collection"));
+
+        mockMvc.perform(post("/api/films")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {
+                                  "title": "The Third Man",
+                                  "genre": "Noir",
+                                  "director": "Carol Reed",
+                                  "country": "UK",
+                                  "region": "B",
+                                  "year": 1949,
+                                  "runtime": 104,
+                                  "type": "4K Ultra HD",
+                                  "price": 29.99,
+                                  "imageUrl": "image",
+                                  "trailerUrl": "trailer",
+                                  "aspectRatio": "1.37:1",
+                                  "colorOrBlackAndWhite": "Black and White",
+                                  "silent": false,
+                                  "weight": 200,
+                                  "description": "Description",
+                                  "brand": { "id": %d }
+                                }
+                                """.formatted(brand.getId())))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.region").value("FREE"))
+                .andExpect(jsonPath("$.type").value("4K Ultra HD"));
     }
 
     private Film saveFilm(String title, double price) {

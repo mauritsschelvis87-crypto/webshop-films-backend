@@ -81,7 +81,7 @@ public class JsonDataSeeder implements CommandLineRunner {
             film.setGenre(fj.getGenre());
             film.setDirector(fj.getDirector());
             film.setCountry(fj.getCountry());
-            film.setRegion(determineRegion(brand));
+            film.setRegion(determineRegion(brand, fj.getType()));
             film.setYear(fj.getYear());
             film.setRuntime(fj.getRuntime());
             film.setType(fj.getType());
@@ -228,7 +228,11 @@ public class JsonDataSeeder implements CommandLineRunner {
         }).toList();
     }
 
-    private FilmRegion determineRegion(Brand brand) {
+    private FilmRegion determineRegion(Brand brand, String type) {
+        if (isRegionFree(type)) {
+            return FilmRegion.FREE;
+        }
+
         if (brand == null || brand.getName() == null) {
             throw new IllegalArgumentException("Film brand is required to determine region.");
         }
@@ -238,6 +242,10 @@ public class JsonDataSeeder implements CommandLineRunner {
             case "Masters of Cinema", "BFI" -> FilmRegion.B;
             default -> throw new IllegalArgumentException("Unsupported brand for region mapping: " + brand.getName());
         };
+    }
+
+    private boolean isRegionFree(String type) {
+        return "4K Ultra HD".equalsIgnoreCase(type);
     }
 
     @Getter

@@ -2,12 +2,20 @@ package homecinema.security;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.SignatureAlgorithm;
+import io.jsonwebtoken.security.Keys;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
+
+import javax.crypto.SecretKey;
+import java.nio.charset.StandardCharsets;
+import java.util.Date;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -24,6 +32,9 @@ class JwtAuthenticationIntegrationTest {
 
     @Autowired
     private ObjectMapper objectMapper;
+
+    @Value("${app.jwt.secret}")
+    private String jwtSecret;
 
     @Test
     void loginReturnsJwtAndAllowsAccessToProtectedEndpoint() throws Exception {
@@ -79,5 +90,31 @@ class JwtAuthenticationIntegrationTest {
                         .header("Authorization", "Bearer " + token))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.email").value(email));
+    }
+
+    @Test
+    void expiredTokenDoesNotBreakPublicEndpoint() throws Exception {
+        mockMvc.perform(get("/api/films")
+                        .header("Authorization", "Bearer " + generateExpiredToken("expired@example.com")))
+                .andExpect(status().isOk());
+    }
+
+    @Test
+    void expiredTokenReturnsUnauthorizedForProtectedEndpoint() throws Exception {
+        mockMvc.perform(get("/api/account/me")
+                        .header("Authorization", "Bearer " + generateExpiredToken("expired@example.com")))
+                .andExpect(status().isUnauthorized());
+    }
+
+    private String generateExpiredToken(String subject) {
+        SecretKey secretKey = Keys.hmacShaKeyFor(jwtSecret.getBytes(StandardCharsets.UTF_8));
+        Date now = new Date();
+
+        return Jwts.builder()
+                .setSubject(subject)
+                .setIssuedAt(new Date(now.getTime() - 2_000))
+                .setExpiration(new Date(now.getTime() - 1_000))
+                .signWith(secretKey, SignatureAlgorithm.HS256)
+                .compact();
     }
 }

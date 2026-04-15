@@ -1901,12 +1901,12 @@
         "name": "Giulietta Masina"
       }
     ],
-    "stills": [
-      "/assets/stills/ls1.jpg",
-      "/assets/stills/ls2.jpg",
-      "/assets/stills/ls3.jpg"
-    ],
-    "region": "A"
+      "stills": [
+        "/assets/stills/ls1.jpg",
+        "/assets/stills/ls2.jpg",
+        "/assets/stills/ls3.jpg"
+      ],
+      "region": "FREE"
   },
   {
     "title": "Late Spring",
@@ -1942,8 +1942,8 @@
     ],
     "region": "A"
   },
-  {
-    "title": "Le Samouraï",
+    {
+      "title": "Le Samouraï",
     "genre": "Crime, Thriller",
     "director": "Jean-Pierre Melville",
     "country": "France",
@@ -1974,8 +1974,8 @@
       "/assets/stills/ls2.jpg",
       "/assets/stills/ls3.jpg"
     ],
-    "region": "A"
-  },
+      "region": "FREE"
+    },
   {
     "title": "Lifeboat",
     "genre": "Drama, Thriller",
@@ -3063,12 +3063,12 @@
         "name": "Takashi Shimura"
       }
     ],
-    "stills": [
-      "/assets/stills/ss1.jpg",
-      "/assets/stills/ss2.jpg",
-      "/assets/stills/ss3.jpg"
-    ],
-    "region": "A"
+      "stills": [
+        "/assets/stills/ss1.jpg",
+        "/assets/stills/ss2.jpg",
+        "/assets/stills/ss3.jpg"
+      ],
+      "region": "FREE"
   },
   {
     "title": "Solaris",
@@ -3421,12 +3421,12 @@
         "name": "Jun Tatara"
       }
     ],
-    "stills": [
-      "/assets/stills/bh1.jpg",
-      "/assets/stills/bh2.jpg",
-      "/assets/stills/bh3.jpg"
-    ],
-    "region": "A"
+      "stills": [
+        "/assets/stills/bh1.jpg",
+        "/assets/stills/bh2.jpg",
+        "/assets/stills/bh3.jpg"
+      ],
+      "region": "FREE"
   },
   {
     "title": "The Cameraman",
@@ -4283,12 +4283,12 @@
         "name": "Orson Welles"
       }
     ],
-    "stills": [
-      "/assets/stills/toe1.jpg",
-      "/assets/stills/toe2.jpg",
-      "/assets/stills/toe3.jpg"
-    ],
-    "region": "B"
+      "stills": [
+        "/assets/stills/toe1.jpg",
+        "/assets/stills/toe2.jpg",
+        "/assets/stills/toe3.jpg"
+      ],
+      "region": "FREE"
   },
   {
     "title": "Trouble in Paradise",
