@@ -48,6 +48,7 @@ public class FilmController {
         film.setGenre(filmDetails.getGenre());
         film.setDirector(filmDetails.getDirector());
         film.setCountry(filmDetails.getCountry());
+        film.setRegion(filmDetails.getRegion());
         film.setYear(filmDetails.getYear());
         film.setType(filmDetails.getType());
         film.setPrice(filmDetails.getPrice());

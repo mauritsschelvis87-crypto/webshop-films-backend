@@ -1,5 +1,6 @@
 package homecinema.dto;
 
+import homecinema.model.enums.FilmRegion;
 import lombok.Data;
 
 import java.time.LocalDateTime;
@@ -34,6 +35,7 @@ public class OrderResponseDTO {
         private String type;
         private String director;
         private String country;
+        private FilmRegion region;
         private int year;
         private int runtime;
         private String aspectRatio;

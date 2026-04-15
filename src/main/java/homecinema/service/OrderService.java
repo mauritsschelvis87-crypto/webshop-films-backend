@@ -236,6 +236,7 @@ public class OrderService {
         filmDTO.setType(film.getType());
         filmDTO.setDirector(film.getDirector());
         filmDTO.setCountry(film.getCountry());
+        filmDTO.setRegion(film.getRegion());
         filmDTO.setYear(film.getYear());
         filmDTO.setRuntime(film.getRuntime());
         filmDTO.setAspectRatio(film.getAspectRatio());

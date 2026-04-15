@@ -2,6 +2,7 @@ package homecinema.api;
 
 import homecinema.model.Brand;
 import homecinema.model.Film;
+import homecinema.model.enums.FilmRegion;
 import homecinema.repository.BrandRepository;
 import homecinema.repository.FilmRepository;
 import org.junit.jupiter.api.Test;
@@ -48,16 +49,32 @@ class FilmApiIntegrationTest {
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.id").value(film.getId()))
                 .andExpect(jsonPath("$.title").value("Tokyo Story"))
+                .andExpect(jsonPath("$.region").value("B"))
                 .andExpect(jsonPath("$.price").value(19.99));
     }
 
+    @Test
+    void filmsEndpointReturnsRegionAForCriterionTitles() throws Exception {
+        Film film = saveFilm("Late Spring", 17.99, "Criterion Collection", FilmRegion.A);
+
+        mockMvc.perform(get("/api/films/{id}", film.getId())
+                        .contentType(MediaType.APPLICATION_JSON))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.region").value("A"));
+    }
+
     private Film saveFilm(String title, double price) {
-        Brand brand = brandRepository.save(new Brand("Brand " + title));
+        return saveFilm(title, price, "Brand " + title, FilmRegion.B);
+    }
+
+    private Film saveFilm(String title, double price, String brandName, FilmRegion region) {
+        Brand brand = brandRepository.save(new Brand(brandName));
         Film film = new Film();
         film.setTitle(title);
         film.setGenre("Drama");
         film.setDirector("Director");
         film.setCountry("Japan");
+        film.setRegion(region);
         film.setYear(1953);
         film.setRuntime(136);
         film.setType("Blu-ray");

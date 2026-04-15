@@ -1,5 +1,6 @@
 package homecinema.model;
 
+import homecinema.model.enums.FilmRegion;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -16,6 +17,8 @@ public class Film extends BaseEntity {
     private String genre;
     private String director;
     private String country;
+    @Enumerated(EnumType.STRING)
+    private FilmRegion region;
     private int year;
     private int runtime;
     private String type;

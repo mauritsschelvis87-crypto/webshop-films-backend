@@ -1,5 +1,6 @@
 package homecinema.dto;
 
+import homecinema.model.enums.FilmRegion;
 import lombok.Data;
 
 import java.util.List;
@@ -11,6 +12,7 @@ public class FilmDTO {
     private String genre;
     private String director;
     private String country;
+    private FilmRegion region;
     private int year;
     private int runtime;
     private double price;

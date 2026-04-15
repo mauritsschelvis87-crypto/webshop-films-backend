@@ -51,7 +51,7 @@ public class SecurityConfig {
                         .accessDeniedHandler(jwtAccessDeniedHandler)
                 )
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/api/auth/login", "/api/auth/register", "/api/films/**", "/api/brands/**", "/error").permitAll()
+                        .requestMatchers("/api/auth/login", "/api/auth/register", "/api/films/**", "/api/directors/**", "/api/boxsets/**", "/api/brands/**", "/error").permitAll()
                         .anyRequest().authenticated()
                 )
                 .authenticationProvider(authenticationProvider)

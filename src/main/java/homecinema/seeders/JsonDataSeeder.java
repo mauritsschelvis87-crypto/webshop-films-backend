@@ -2,12 +2,17 @@ package homecinema.seeders;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import homecinema.model.Actor;
 import homecinema.model.Brand;
+import homecinema.model.Director;
+import homecinema.model.DirectorPerson;
 import homecinema.model.Film;
+import homecinema.model.enums.FilmRegion;
 import homecinema.repository.ActorRepository;
 import homecinema.repository.BrandRepository;
+import homecinema.repository.DirectorRepository;
 import homecinema.repository.FilmRepository;
 import lombok.Getter;
 import lombok.Setter;
@@ -30,14 +35,17 @@ public class JsonDataSeeder implements CommandLineRunner {
     private final FilmRepository filmRepository;
     private final BrandRepository brandRepository;
     private final ActorRepository actorRepository;
+    private final DirectorRepository directorRepository;
     private final ObjectMapper objectMapper;
 
     public JsonDataSeeder(FilmRepository filmRepository,
                           BrandRepository brandRepository,
-                          ActorRepository actorRepository) {
+                          ActorRepository actorRepository,
+                          DirectorRepository directorRepository) {
         this.filmRepository = filmRepository;
         this.brandRepository = brandRepository;
         this.actorRepository = actorRepository;
+        this.directorRepository = directorRepository;
         this.objectMapper = new ObjectMapper();
     }
 
@@ -73,6 +81,7 @@ public class JsonDataSeeder implements CommandLineRunner {
             film.setGenre(fj.getGenre());
             film.setDirector(fj.getDirector());
             film.setCountry(fj.getCountry());
+            film.setRegion(determineRegion(brand));
             film.setYear(fj.getYear());
             film.setRuntime(fj.getRuntime());
             film.setType(fj.getType());
@@ -94,6 +103,38 @@ public class JsonDataSeeder implements CommandLineRunner {
         }
 
         System.out.println("Seed data geladen!");
+        seedDirectors();
+    }
+
+    private void seedDirectors() throws Exception {
+        InputStream inputStream = getClass().getResourceAsStream("/directors.json");
+        if (inputStream == null) {
+            System.err.println("Kon directors niet vinden!");
+            return;
+        }
+
+        List<DirectorJson> directorsJson = objectMapper.readValue(inputStream, new TypeReference<>() {});
+        Map<String, Director> directorsBySlug = directorRepository.findBySlugIn(extractDirectorSlugs(directorsJson)).stream()
+                .collect(Collectors.toMap(Director::getSlug, director -> director));
+
+        for (DirectorJson dj : directorsJson) {
+            Director director = directorsBySlug.getOrDefault(dj.getSlug(), new Director());
+            director.setSlug(dj.getSlug());
+            director.setName(dj.getName());
+            director.setBirthPlace(dj.getBirthPlace());
+            director.setBirthYear(dj.getBirthYear());
+            director.setDeathYear(dj.getDeathYear());
+            director.setInfoLine(dj.getInfoLine());
+            director.setBornLine(dj.getBornLine());
+            director.setDiedLine(dj.getDiedLine());
+            director.setPeople(toDirectorPeople(dj.getPeople()));
+            director.setImage(dj.getImage());
+            director.setBio(dj.getBio());
+            director.setEducation(normalizeEducation(dj.getEducation()));
+
+            Director savedDirector = directorRepository.save(director);
+            directorsBySlug.put(savedDirector.getSlug(), savedDirector);
+        }
     }
 
     private Map<String, Brand> loadBrandsByName(List<FilmJson> filmsJson) {
@@ -146,6 +187,59 @@ public class JsonDataSeeder implements CommandLineRunner {
                 .collect(Collectors.toCollection(HashSet::new));
     }
 
+    private Set<String> extractDirectorSlugs(List<DirectorJson> directorsJson) {
+        return directorsJson.stream()
+                .map(DirectorJson::getSlug)
+                .collect(Collectors.toCollection(HashSet::new));
+    }
+
+    private String normalizeEducation(JsonNode educationNode) {
+        if (educationNode == null || educationNode.isNull()) {
+            return null;
+        }
+
+        if (educationNode.isArray()) {
+            List<String> educations = new ArrayList<>();
+            educationNode.forEach(node -> {
+                if (node.isTextual()) {
+                    educations.add(node.asText());
+                }
+            });
+            return String.join("; ", educations);
+        }
+
+        return educationNode.asText();
+    }
+
+    private List<DirectorPerson> toDirectorPeople(List<DirectorPersonJson> peopleJson) {
+        if (peopleJson == null) {
+            return null;
+        }
+
+        return peopleJson.stream().map(personJson -> {
+            DirectorPerson person = new DirectorPerson();
+            person.setName(personJson.getName());
+            person.setBirthDate(personJson.getBirthDate());
+            person.setBirthPlace(personJson.getBirthPlace());
+            person.setBirthYear(personJson.getBirthYear());
+            person.setDeathDate(personJson.getDeathDate());
+            person.setDeathYear(personJson.getDeathYear());
+            return person;
+        }).toList();
+    }
+
+    private FilmRegion determineRegion(Brand brand) {
+        if (brand == null || brand.getName() == null) {
+            throw new IllegalArgumentException("Film brand is required to determine region.");
+        }
+
+        return switch (brand.getName()) {
+            case "Criterion Collection" -> FilmRegion.A;
+            case "Masters of Cinema", "BFI" -> FilmRegion.B;
+            default -> throw new IllegalArgumentException("Unsupported brand for region mapping: " + brand.getName());
+        };
+    }
+
     @Getter
     @Setter
     @JsonIgnoreProperties(ignoreUnknown = true)
@@ -181,5 +275,35 @@ public class JsonDataSeeder implements CommandLineRunner {
     @Setter
     public static class ActorJson {
         private String name;
+    }
+
+    @Getter
+    @Setter
+    @JsonIgnoreProperties(ignoreUnknown = true)
+    public static class DirectorJson {
+        private String slug;
+        private String name;
+        private String birthPlace;
+        private Integer birthYear;
+        private Integer deathYear;
+        private String infoLine;
+        private String bornLine;
+        private String diedLine;
+        private List<DirectorPersonJson> people;
+        private String image;
+        private String bio;
+        private JsonNode education;
+    }
+
+    @Getter
+    @Setter
+    @JsonIgnoreProperties(ignoreUnknown = true)
+    public static class DirectorPersonJson {
+        private String name;
+        private String birthDate;
+        private String birthPlace;
+        private Integer birthYear;
+        private String deathDate;
+        private Integer deathYear;
     }
 }
