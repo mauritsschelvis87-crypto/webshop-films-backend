@@ -78,10 +78,11 @@ Maximum output consists of **1 recommendation**
 
 ---
 ### Step 3
-After the first two steps and considering the constraints, the algorithm adds a random movie.
+After the first two steps and considering the constraints, the algorithm adds a movie that the community has rated high.
 
 ### Rule 3: Randomizer
 - 1 random movie recommendation
+- The random movie is from the top 10 all-time rated movies (on this webshop)
 
 Maximum output consists of **1 recommendation**
 
