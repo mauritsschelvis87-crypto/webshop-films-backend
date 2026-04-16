@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -36,7 +37,7 @@ public class User extends BaseEntity {
     @ElementCollection
     @CollectionTable(name = "user_film_ratings", joinColumns = @JoinColumn(name = "user_id"))
     @MapKeyColumn(name = "film_id")
-    @Column(name = "rating")
-    private Map<Long, Integer> filmRatings = new HashMap<>();
+    @Column(name = "rating", precision = 2, scale = 1)
+    private Map<Long, BigDecimal> filmRatings = new HashMap<>();
 
 }

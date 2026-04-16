@@ -14,10 +14,12 @@ import homecinema.repository.ActorRepository;
 import homecinema.repository.BrandRepository;
 import homecinema.repository.DirectorRepository;
 import homecinema.repository.FilmRepository;
+import homecinema.service.CloudinaryAssetResolver;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+import org.springframework.util.StringUtils;
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -37,16 +39,20 @@ public class JsonDataSeeder implements CommandLineRunner {
     private final ActorRepository actorRepository;
     private final DirectorRepository directorRepository;
     private final ObjectMapper objectMapper;
+    private final CloudinaryAssetResolver cloudinaryAssetResolver;
 
     public JsonDataSeeder(FilmRepository filmRepository,
                           BrandRepository brandRepository,
                           ActorRepository actorRepository,
-                          DirectorRepository directorRepository) {
+                          DirectorRepository directorRepository,
+                          ObjectMapper objectMapper,
+                          CloudinaryAssetResolver cloudinaryAssetResolver) {
         this.filmRepository = filmRepository;
         this.brandRepository = brandRepository;
         this.actorRepository = actorRepository;
         this.directorRepository = directorRepository;
-        this.objectMapper = new ObjectMapper();
+        this.objectMapper = objectMapper;
+        this.cloudinaryAssetResolver = cloudinaryAssetResolver;
     }
 
     @Override
@@ -86,7 +92,7 @@ public class JsonDataSeeder implements CommandLineRunner {
             film.setRuntime(fj.getRuntime());
             film.setType(fj.getType());
             film.setPrice(fj.getPrice());
-            film.setImageUrl(fj.getImageUrl());
+            film.setImageUrl(cloudinaryAssetResolver.resolveCover(fj.getImageUrl()));
             film.setTrailerUrl(fj.getTrailerUrl());
             film.setAspectRatio(fj.getAspectRatio());
             film.setColorOrBlackAndWhite(fj.getColorOrBlackAndWhite());
@@ -94,7 +100,7 @@ public class JsonDataSeeder implements CommandLineRunner {
             film.setBrand(brand);
             film.setActors(actors);
             film.setWeight(fj.getWeight());
-            film.setStills(fj.getStills());
+            film.setStills(resolveStills(fj.getStills()));
 
             film.setSilent(fj.getSilent() != null ? fj.getSilent() : false);
 
@@ -128,7 +134,7 @@ public class JsonDataSeeder implements CommandLineRunner {
             director.setBornLine(dj.getBornLine());
             director.setDiedLine(dj.getDiedLine());
             director.setPeople(toDirectorPeople(dj.getPeople()));
-            director.setImage(dj.getImage());
+            director.setImage(cloudinaryAssetResolver.resolveDirector(dj.getImage()));
             director.setBio(dj.getBio());
             director.setEducation(normalizeEducation(dj.getEducation()));
 
@@ -226,6 +232,17 @@ public class JsonDataSeeder implements CommandLineRunner {
             person.setDeathYear(personJson.getDeathYear());
             return person;
         }).toList();
+    }
+
+    private List<String> resolveStills(List<String> stills) {
+        if (stills == null) {
+            return List.of();
+        }
+
+        return stills.stream()
+                .map(cloudinaryAssetResolver::resolveStill)
+                .filter(StringUtils::hasText)
+                .toList();
     }
 
     private FilmRegion determineRegion(Brand brand, String type) {

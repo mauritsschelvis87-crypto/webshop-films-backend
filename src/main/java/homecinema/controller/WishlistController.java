@@ -8,12 +8,16 @@ import homecinema.repository.UserRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 @CrossOrigin(origins = {"http://localhost:4200", "https://s1156856.student.inf.st.hsleiden.nl"}, allowCredentials = "true")
 @RestController
 @RequestMapping("/api/wishlist")
 public class WishlistController {
+    private static final BigDecimal MIN_RATING = new BigDecimal("0.5");
+    private static final BigDecimal MAX_RATING = new BigDecimal("5.0");
+    private static final BigDecimal HALF_STAR_STEP = new BigDecimal("0.5");
 
     private final UserRepository userRepository;
     private final FilmRepository filmRepository;
@@ -73,8 +77,8 @@ public class WishlistController {
             return ResponseEntity.badRequest().build();
         }
 
-        Integer rating = request.getRating();
-        if (rating == null || rating < 1 || rating > 5) {
+        BigDecimal rating = request.getRating();
+        if (!isValidRating(rating)) {
             return ResponseEntity.badRequest().build();
         }
 
@@ -86,5 +90,13 @@ public class WishlistController {
     private List<Film> enrichWishlistWithRatings(User user) {
         user.getWishlist().forEach(film -> film.setUserRating(user.getFilmRatings().get(film.getId())));
         return user.getWishlist();
+    }
+
+    private boolean isValidRating(BigDecimal rating) {
+        if (rating == null || rating.compareTo(MIN_RATING) < 0 || rating.compareTo(MAX_RATING) > 0) {
+            return false;
+        }
+
+        return rating.remainder(HALF_STAR_STEP).compareTo(BigDecimal.ZERO) == 0;
     }
 }

@@ -64,18 +64,28 @@ class WishlistApiIntegrationTest {
                         .contentType(MediaType.APPLICATION_JSON)
                         .content("""
                                 {
-                                  "rating": 5
+                                  "rating": 4.5
                                 }
                                 """))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$[0].id").value(film.getId()))
-                .andExpect(jsonPath("$[0].userRating").value(5));
+                .andExpect(jsonPath("$[0].userRating").value(4.5));
 
         mockMvc.perform(get("/api/wishlist/{userId}", session.userId())
                         .header("Authorization", "Bearer " + session.token()))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$[0].id").value(film.getId()))
-                .andExpect(jsonPath("$[0].userRating").value(5));
+                .andExpect(jsonPath("$[0].userRating").value(4.5));
+
+        mockMvc.perform(put("/api/wishlist/{userId}/rating/{filmId}", session.userId(), film.getId())
+                        .header("Authorization", "Bearer " + session.token())
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content("""
+                                {
+                                  "rating": 4.7
+                                }
+                                """))
+                .andExpect(status().isBadRequest());
 
         mockMvc.perform(delete("/api/wishlist/{userId}/remove/{filmId}", session.userId(), film.getId())
                         .header("Authorization", "Bearer " + session.token()))

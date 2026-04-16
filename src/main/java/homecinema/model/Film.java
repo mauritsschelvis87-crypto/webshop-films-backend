@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.Set;
 
@@ -46,5 +47,5 @@ public class Film extends BaseEntity {
     private List<String> stills;
 
     @Transient
-    private Integer userRating;
+    private BigDecimal userRating;
 }

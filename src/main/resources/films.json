@@ -620,7 +620,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/black_narcissus.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=7SZNO74B5y0",
     "aspectRatio": "1.33:1",
     "colorOrBlackAndWhite": "Technicolor",
     "silent": false,
@@ -652,7 +652,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/black_orpheus.jpg",
-    "trailerUrl": "https://www.youtube.com/watch?v=L64G4EkbIzk",
+    "trailerUrl": "https://www.youtube.com/watch?v=Srn_RylK4ZI",
     "aspectRatio": "1.35:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -717,7 +717,7 @@
     "type": "DVD",
     "price": 24.5,
     "imageUrl": "/assets/covers/bob_le_flambeur.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=hw_6cMho1x8",
     "aspectRatio": "1.37:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -749,7 +749,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/breathless.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=FLBK6P5ATxk",
     "aspectRatio": "1.66:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -815,7 +815,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/chimes_at_midnight.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=bxdJTgBHqUQ",
     "aspectRatio": "1.66:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -885,7 +885,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/city_girl.jpg",
-    "trailerUrl": "https://www.youtube.com/watch?v=Y7lS_8vhwr0",
+    "trailerUrl": "https://www.youtube.com/watch?v=2VFYYdNjYp8",
     "aspectRatio": "1.33:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": true,
@@ -917,7 +917,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/city_lights.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=Zgcn_UdSJHI",
     "aspectRatio": "1.33:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": true,
@@ -951,7 +951,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/close_up.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=GjTrn8IUJyQ",
     "aspectRatio": "1.66:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -985,7 +985,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/das_cabinet_des_dr_caligari.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=IAtpxqajFak",
     "aspectRatio": "1.33:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": true,
@@ -1020,7 +1020,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/day_for_night.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=OBen19EjYAc",
     "aspectRatio": "1.66:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -1052,7 +1052,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/death_in_venice.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=-pxn49yWVJk",
     "aspectRatio": "2.35:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -1085,7 +1085,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/die_nibelungen.jpg",
-    "trailerUrl": "https://www.youtube.com/watch?v=XYZ",
+    "trailerUrl": "https://www.youtube.com/watch?v=ljT4kjBkhM8",
     "aspectRatio": "1.33:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": true,
@@ -1117,7 +1117,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/double_indemnity.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=yKrrAa2o9Eg",
     "aspectRatio": "1.37:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -1151,7 +1151,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/early_summer.jpg",
-    "trailerUrl": "https://www.youtube.com/watch?v=KsWPKqSFWlQ",
+    "trailerUrl": "https://www.youtube.com/watch?v=pjbFJC2l_yQ",
     "aspectRatio": "1.37:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -1218,7 +1218,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/eyes_without_a_face.jpg",
-    "trailerUrl": "https://www.youtube.com/watch?v=LnDQ8QplKuQ",
+    "trailerUrl": "https://www.youtube.com/watch?v=qSrgdWjOASc",
     "aspectRatio": "1.66:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -1255,7 +1255,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/f_for_fake.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=qUAwgt2Z-3Y",
     "aspectRatio": "1.37:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -1289,7 +1289,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/foreign_correspondent.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=XJ10fRzSJIc",
     "aspectRatio": "1.37:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -1323,7 +1323,7 @@
     "type": "DVD",
     "price": 24.5,
     "imageUrl": "/assets/covers/hamlet.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=LaqzCju2VKs",
     "aspectRatio": "1.33:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -1360,7 +1360,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/harakiri.jpg",
-    "trailerUrl": "https://www.youtube.com/watch?v=gfABwM-Ppng",
+    "trailerUrl": "https://www.youtube.com/watch?v=gfABwM-Ppng&t=1s",
     "aspectRatio": "1.85:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -1394,7 +1394,7 @@
     "type": "DVD",
     "price": 24.5,
     "imageUrl": "/assets/covers/henry5.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=NWzXHWzwHMM",
     "aspectRatio": "1.33:1",
     "colorOrBlackAndWhite": "Technicolor",
     "silent": false,
@@ -1431,7 +1431,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/house.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=WQ_Yo06kIIA",
     "aspectRatio": "1.33:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -1468,7 +1468,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/human_desire.jpg",
-    "trailerUrl": "https://www.youtube.com/watch?v=wdGUQ6dTQ7M",
+    "trailerUrl": "https://www.youtube.com/watch?v=EUaDKWDTHok",
     "aspectRatio": "1.85:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -1505,7 +1505,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/i_clowns.jpg",
-    "trailerUrl": "https://www.youtube.com/watch?v=QlT2F7D6SvI",
+    "trailerUrl": "https://www.youtube.com/watch?v=RnelLLS5Jl0",
     "aspectRatio": "1.33:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -1542,7 +1542,7 @@
     "type": "DVD",
     "price": 24.5,
     "imageUrl": "/assets/covers/i_know_where_im_going.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=qQaMV59JjnY",
     "aspectRatio": "1.33:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -1576,7 +1576,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/identification_of_a_woman.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=pdpWqX4B8VE",
     "aspectRatio": "1.85:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -1610,7 +1610,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/in_the_mood_for_love.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=AfZbh4cteqI",
     "aspectRatio": "1.85:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -1644,7 +1644,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/jeanne_dielman.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=iuP1MN6RNJU",
     "aspectRatio": "1.66:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -1675,7 +1675,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/jules_and_jim.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=nEtiba8_gsk",
     "aspectRatio": "1.66:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -1709,7 +1709,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/kes.jpg",
-    "trailerUrl": "https://www.youtube.com/watch?v=Z3b66s9w_kI",
+    "trailerUrl": "https://www.youtube.com/watch?v=Q2BMFtefUag",
     "aspectRatio": "1.66:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -1729,9 +1729,7 @@
       }
     ],
     "stills": [
-      "/assets/stills/k1.jpg",
-      "/assets/stills/k2.jpg",
-      "/assets/stills/k3.jpg"
+      "/assets/stills/k1.jpg"
     ],
     "region": "B"
   },
@@ -1783,7 +1781,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/kwaidan.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=YadApPG8W7Q",
     "aspectRatio": "1.37:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -1802,6 +1800,7 @@
     "stills": [
       "/assets/stills/kw1.jpg",
       "/assets/stills/kw2.jpg",
+      "/assets/stills/kw3.jpg",
       "/assets/stills/kw3.jpg"
     ],
     "region": "A"
@@ -1817,7 +1816,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/largent.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=8P5ccMyfDlA",
     "aspectRatio": "1.66:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -1835,8 +1834,8 @@
     ],
     "stills": [
       "/assets/stills/la1.jpg",
-      "/assets/stills/la2.jpg",
-      "/assets/stills/la3.jpg"
+      "/assets/stills/la2.jpg"
+
     ],
     "region": "A"
   },
@@ -1885,7 +1884,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/la_strada.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=jRHCi3Awkmg",
     "aspectRatio": "1.37:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -1919,7 +1918,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/late_spring.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=_4Ul10BSzRw",
     "aspectRatio": "1.33:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -1936,9 +1935,9 @@
       }
     ],
     "stills": [
-      "/assets/stills/ls1.jpg",
-      "/assets/stills/ls2.jpg",
-      "/assets/stills/ls3.jpg"
+      "/assets/stills/lsp1.jpg",
+      "/assets/stills/lsp2.jpg",
+      "/assets/stills/lsp3.jpg"
     ],
     "region": "A"
   },
@@ -1953,7 +1952,7 @@
     "type": "4K Ultra HD",
     "price": 34.5,
     "imageUrl": "/assets/covers/le_samourai.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=PTFV07ah4fY",
     "aspectRatio": "1.66:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -1970,9 +1969,9 @@
       }
     ],
     "stills": [
-      "/assets/stills/ls1.jpg",
-      "/assets/stills/ls2.jpg",
-      "/assets/stills/ls3.jpg"
+      "/assets/stills/lsa1.jpg",
+      "/assets/stills/lsa2.jpg",
+      "/assets/stills/lsa3.jpg"
     ],
       "region": "FREE"
     },
@@ -1987,7 +1986,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/lifeboat.jpg",
-    "trailerUrl": "https://www.youtube.com/watch?v=RxX0tVgkNXk",
+    "trailerUrl": "https://www.youtube.com/watch?v=rdvtsM6P8_U",
     "aspectRatio": "1.37:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -2004,9 +2003,8 @@
       }
     ],
     "stills": [
-      "/assets/stills/l1.jpg",
-      "/assets/stills/l2.jpg",
-      "/assets/stills/l3.jpg"
+      "/assets/stills/l1.jpg"
+
     ],
     "region": "B"
   },
@@ -2021,7 +2019,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/limelight.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=I7KZbxd-_3k",
     "aspectRatio": "1.37:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -2040,7 +2038,8 @@
     "stills": [
       "/assets/stills/li1.jpg",
       "/assets/stills/li2.jpg",
-      "/assets/stills/li3.jpg"
+      "/assets/stills/li3.jpg",
+      "/assets/stills/li4.jpg"
     ],
     "region": "A"
   },
@@ -2055,7 +2054,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/m.jpg",
-    "trailerUrl": "https://www.youtube.com/watch?v=Eg1CFRKde0E",
+    "trailerUrl": "https://www.youtube.com/watch?v=nsVproWjN6c",
     "aspectRatio": "1.19:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -2089,7 +2088,7 @@
     "type": "DVD",
     "price": 24.5,
     "imageUrl": "/assets/covers/master_of_the_house.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=roTvXHwWR7Q",
     "aspectRatio": "1.33:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": true,
@@ -2123,7 +2122,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/mean_streets.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=OZgcc28TDx8",
     "aspectRatio": "1.85:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -2154,7 +2153,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/metropolis.jpg",
-    "trailerUrl": "https://www.youtube.com/watch?v=EgFaH96jq9E",
+    "trailerUrl": "https://www.youtube.com/watch?v=ZLVtMt7Ehts",
     "aspectRatio": "1.37:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": true,
@@ -2188,7 +2187,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/michael.jpg",
-    "trailerUrl": "https://www.youtube.com/watch?v=rotvXHwWR7Q",
+    "trailerUrl": "https://www.youtube.com/watch?v=roTvXHwWR7Q",
     "aspectRatio": "1.33:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": true,
@@ -2208,9 +2207,8 @@
       }
     ],
     "stills": [
-      "/assets/stills/mi1.jpg",
-      "/assets/stills/mi2.jpg",
-      "/assets/stills/mi3.jpg"
+      "/assets/stills/mi1.jpg"
+
     ],
     "region": "B"
   },
@@ -2225,7 +2223,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/mirror.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=S2U9TXmYJ94",
     "aspectRatio": "1.37:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -2259,7 +2257,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/modern_times.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=GLeDdzGUTq0",
     "aspectRatio": "1.33:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -2293,7 +2291,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/mouchette.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=7rvpnMw1DNo",
     "aspectRatio": "1.37:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -2324,7 +2322,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/mulholland_dr.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=U-Y70mhkiJo",
     "aspectRatio": "2.35:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -2343,7 +2341,9 @@
     "stills": [
       "/assets/stills/md1.jpg",
       "/assets/stills/md2.jpg",
-      "/assets/stills/md3.jpg"
+      "/assets/stills/md3.jpg",
+      "/assets/stills/md4.jpg"
+
     ],
     "region": "A"
   },
@@ -2358,7 +2358,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/naked.jpg",
-    "trailerUrl": "https://www.youtube.com/watch?v=1Jm2glsWq_4",
+    "trailerUrl": "https://www.youtube.com/watch?v=TdKPbyvS0qc",
     "aspectRatio": "1.85:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -2378,9 +2378,8 @@
       }
     ],
     "stills": [
-      "/assets/stills/na1.jpg",
-      "/assets/stills/na2.jpg",
-      "/assets/stills/na3.jpg"
+      "/assets/stills/na1.jpg"
+
     ],
     "region": "B"
   },
@@ -2395,7 +2394,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/no_country_for_old_men.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=zJ9CxL3m5QI",
     "aspectRatio": "2.39:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -2426,7 +2425,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/nosferatu.jpg",
-    "trailerUrl": "https://www.youtube.com/watch?v=eg1CFRKde0E",
+    "trailerUrl": "https://www.youtube.com/watch?v=npxhdRMYHy0",
     "aspectRatio": "1.33:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": true,
@@ -2446,9 +2445,8 @@
       }
     ],
     "stills": [
-      "/assets/stills/no1.jpg",
-      "/assets/stills/no2.jpg",
-      "/assets/stills/no3.jpg"
+      "/assets/stills/no1.jpg"
+
     ],
     "region": "B"
   },
@@ -2463,7 +2461,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/notorious.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=EhMyp8ZvjWs",
     "aspectRatio": "1.37:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -2480,9 +2478,9 @@
       }
     ],
     "stills": [
-      "/assets/stills/no1.jpg",
-      "/assets/stills/no2.jpg",
-      "/assets/stills/no3.jpg"
+      "/assets/stills/not1.jpg",
+      "/assets/stills/not2.jpg",
+      "/assets/stills/not3.jpg"
     ],
     "region": "A"
   },
@@ -2497,7 +2495,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/on_the_waterfront.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=boekTHsOIY8",
     "aspectRatio": "1.85:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -2511,9 +2509,8 @@
       }
     ],
     "stills": [
-      "/assets/stills/otw1.jpg",
-      "/assets/stills/otw2.jpg",
-      "/assets/stills/otw3.jpg"
+      "/assets/stills/otw1.jpg"
+
     ],
     "region": "A"
   },
@@ -2528,7 +2525,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/onibaba.jpg",
-    "trailerUrl": "https://www.youtube.com/watch?v=VWpB7hBklrY",
+    "trailerUrl": "https://www.youtube.com/watch?v=vCPEJ982dxo",
     "aspectRatio": "1.33:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -2562,7 +2559,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/orpheus.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=0I0KdZLvvoc",
     "aspectRatio": "1.37:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -2581,7 +2578,8 @@
     "stills": [
       "/assets/stills/or1.jpg",
       "/assets/stills/or2.jpg",
-      "/assets/stills/or3.jpg"
+      "/assets/stills/or3.jpg",
+      "/assets/stills/or4.jpg"
     ],
     "region": "A"
   },
@@ -2596,7 +2594,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/paths_of_glory.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=icZyfkL4FMY",
     "aspectRatio": "1.66:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -2633,7 +2631,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/perfect_days.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=QzZBbX5A1FA",
     "aspectRatio": "1.66:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -2652,7 +2650,8 @@
     "stills": [
       "/assets/stills/pd1.jpg",
       "/assets/stills/pd2.jpg",
-      "/assets/stills/pd3.jpg"
+      "/assets/stills/pd3.jpg",
+      "/assets/stills/pd4.jpg"
     ],
     "region": "A"
   },
@@ -2667,7 +2666,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/persona.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=YEfJopPIbQg",
     "aspectRatio": "1.37:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -2686,7 +2685,8 @@
     "stills": [
       "/assets/stills/pe1.jpg",
       "/assets/stills/pe2.jpg",
-      "/assets/stills/pe3.jpg"
+      "/assets/stills/pe3.jpg",
+      "/assets/stills/pe4.jpg"
     ],
     "region": "A"
   },
@@ -2701,7 +2701,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/pickpocket.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=TyCTOHA4ejA",
     "aspectRatio": "1.37:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -2735,7 +2735,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/purple_noon.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=v-4mv3TJ5b8",
     "aspectRatio": "1.66:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -2766,7 +2766,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/rebecca.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=iq0EQF96jNk",
     "aspectRatio": "1.37:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -2800,7 +2800,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/red_desert.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=0uVPQG01JHk",
     "aspectRatio": "2.35:1",
     "colorOrBlackAndWhite": "Color",
     "silent": false,
@@ -2834,7 +2834,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/richard3.jpg",
-    "trailerUrl": "",
+    "trailerUrl": "https://www.youtube.com/watch?v=p2dfLcOfZog",
     "aspectRatio": "1.66:1",
     "colorOrBlackAndWhite": "Technicolor",
     "silent": false,
@@ -2858,8 +2858,8 @@
     ],
     "stills": [
       "/assets/stills/ri1.jpg",
-      "/assets/stills/ri2.jpg",
-      "/assets/stills/ri3.jpg"
+      "/assets/stills/ri2.jpg"
+
     ],
     "region": "A"
   },
@@ -2874,7 +2874,7 @@
     "type": "Blu-ray",
     "price": 29.5,
     "imageUrl": "/assets/covers/rocco_and_his_brothers.jpg",
-    "trailerUrl": "https://www.youtube.com/watch?v=EgFaH96jq9E",
+    "trailerUrl": "https://www.youtube.com/watch?v=kK1WXnyEkBk",
     "aspectRatio": "1.85:1",
     "colorOrBlackAndWhite": "Black & White",
     "silent": false,
@@ -2895,8 +2895,8 @@
     ],
     "stills": [
       "/assets/stills/rahb1.jpg",
-      "/assets/stills/rahb2.jpg",
-      "/assets/stills/rahb3.jpg"
+      "/assets/stills/rahb2.jpg"
+
     ],
     "region": "B"
   },

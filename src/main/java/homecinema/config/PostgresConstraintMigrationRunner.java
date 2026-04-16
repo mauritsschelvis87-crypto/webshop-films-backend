@@ -30,6 +30,20 @@ public class PostgresConstraintMigrationRunner implements CommandLineRunner {
             END $$;
             """;
 
+    private static final String UPDATE_USER_FILM_RATING_COLUMN = """
+            DO $$
+            BEGIN
+                IF EXISTS (
+                    SELECT 1
+                    FROM information_schema.tables
+                    WHERE table_name = 'user_film_ratings'
+                ) THEN
+                    ALTER TABLE user_film_ratings
+                    ALTER COLUMN rating TYPE numeric(2,1);
+                END IF;
+            END $$;
+            """;
+
     private final DataSource dataSource;
     private final JdbcTemplate jdbcTemplate;
 
@@ -45,6 +59,7 @@ public class PostgresConstraintMigrationRunner implements CommandLineRunner {
         }
 
         jdbcTemplate.execute(UPDATE_FILM_REGION_CHECK);
+        jdbcTemplate.execute(UPDATE_USER_FILM_RATING_COLUMN);
     }
 
     private boolean isPostgreSql() throws Exception {
