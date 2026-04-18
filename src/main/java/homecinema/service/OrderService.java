@@ -96,6 +96,14 @@ public class OrderService {
         return toOrderResponseDto(order);
     }
 
+    @Transactional
+    public void updateOrderStatus(Long orderId, String status) {
+        Order order = orderRepository.findById(orderId)
+                .orElseThrow(() -> new RuntimeException("Bestelling met id " + orderId + " niet gevonden."));
+        order.setStatus(status);
+        orderRepository.save(order);
+    }
+
     private OrderResponseDTO toOrderResponseDto(Order order) {
 
         OrderResponseDTO dto = new OrderResponseDTO();
