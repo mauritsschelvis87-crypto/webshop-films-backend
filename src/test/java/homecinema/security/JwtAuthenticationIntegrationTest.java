@@ -19,7 +19,9 @@ import java.util.Date;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.options;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.header;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -97,6 +99,27 @@ class JwtAuthenticationIntegrationTest {
         mockMvc.perform(get("/api/films")
                         .header("Authorization", "Bearer " + generateExpiredToken("expired@example.com")))
                 .andExpect(status().isOk());
+    }
+
+    @Test
+    void mediaAssetsEndpointIsPublicWithoutToken() throws Exception {
+        mockMvc.perform(get("/api/media-assets"))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.covers").exists())
+                .andExpect(jsonPath("$.stills").exists())
+                .andExpect(jsonPath("$.directors").exists())
+                .andExpect(jsonPath("$.boxset").exists())
+                .andExpect(jsonPath("$.gifts").exists());
+    }
+
+    @Test
+    void vercelPreflightIsAllowedForMediaAssets() throws Exception {
+        mockMvc.perform(options("/api/media-assets")
+                        .header("Origin", "https://my-frontend.vercel.app")
+                        .header("Access-Control-Request-Method", "GET"))
+                .andExpect(status().isOk())
+                .andExpect(header().string("Access-Control-Allow-Origin", "https://my-frontend.vercel.app"))
+                .andExpect(header().string("Access-Control-Allow-Credentials", "true"));
     }
 
     @Test

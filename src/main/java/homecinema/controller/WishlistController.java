@@ -1,5 +1,6 @@
 package homecinema.controller;
 
+import homecinema.config.CorsOrigins;
 import homecinema.dto.FilmRatingRequest;
 import homecinema.model.Film;
 import homecinema.model.User;
@@ -12,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.math.BigDecimal;
 import java.util.List;
 
-@CrossOrigin(origins = {"http://localhost:4200", "https://s1156856.student.inf.st.hsleiden.nl"}, allowCredentials = "true")
+@CrossOrigin(originPatterns = {CorsOrigins.LOCALHOST_4200, CorsOrigins.VERCEL_APP, CorsOrigins.SCHOOL_FRONTEND}, allowCredentials = "true")
 @RestController
 @RequestMapping("/api/wishlist")
 public class WishlistController {

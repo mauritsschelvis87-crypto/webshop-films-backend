@@ -1,12 +1,13 @@
 package homecinema.controller;
 
+import homecinema.config.CorsOrigins;
 import homecinema.model.Brand;
 import homecinema.repository.BrandRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = {"http://localhost:4200", "https://s1156856.student.inf.st.hsleiden.nl"}, allowCredentials = "true")
+@CrossOrigin(originPatterns = {CorsOrigins.LOCALHOST_4200, CorsOrigins.VERCEL_APP, CorsOrigins.SCHOOL_FRONTEND}, allowCredentials = "true")
 @RestController
 @RequestMapping("/api/brands")
 public class BrandController {

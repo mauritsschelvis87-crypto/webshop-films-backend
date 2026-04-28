@@ -1,5 +1,6 @@
 package homecinema.controller;
 
+import homecinema.config.CorsOrigins;
 import homecinema.dto.MediaAssetsResponse;
 import homecinema.service.MediaAssetsService;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -7,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins = {"http://localhost:4200", "https://s1156856.student.inf.st.hsleiden.nl"}, allowCredentials = "true")
+@CrossOrigin(originPatterns = {CorsOrigins.LOCALHOST_4200, CorsOrigins.VERCEL_APP, CorsOrigins.SCHOOL_FRONTEND}, allowCredentials = "true")
 @RestController
 @RequestMapping("/api/media-assets")
 public class MediaAssetsController {

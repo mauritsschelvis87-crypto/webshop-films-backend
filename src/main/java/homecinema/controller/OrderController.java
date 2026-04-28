@@ -1,5 +1,6 @@
 package homecinema.controller;
 
+import homecinema.config.CorsOrigins;
 import homecinema.dto.OrderRequestDTO;
 import homecinema.dto.OrderResponseDTO;
 import homecinema.service.OrderNotFoundException;
@@ -12,7 +13,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/orders")
-@CrossOrigin(origins = {"http://localhost:4200", "https://s1156856.student.inf.st.hsleiden.nl"}, allowCredentials = "true")
+@CrossOrigin(originPatterns = {CorsOrigins.LOCALHOST_4200, CorsOrigins.VERCEL_APP, CorsOrigins.SCHOOL_FRONTEND}, allowCredentials = "true")
 public class OrderController {
 
     private final OrderService orderService;
