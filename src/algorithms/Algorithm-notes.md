@@ -53,8 +53,8 @@ The algorithm first looks at the ratings a user has given to movies in their col
 
 ### Rule 1: Strongest positive rating
 If a movie has received a rating of;
-- Either 4 stars (out of 5)
-- Or 5 stars
+- Either 3.5 stars (out of 5)
+- Or 4.5 / 5 stars
 - Step 1 will randomize the output by randomly selecting a high rated movie out of the top 3 contestants.
 
 Maximum output consists of **2 recommendations**
@@ -83,6 +83,8 @@ After the first two steps and considering the constraints, the algorithm adds a 
 ### Rule 3: Randomizer
 - 1 random movie recommendation
 - The random movie is from the top 10 all-time rated movies (on this webshop)
+
+If multiple candidates are very close in similarity score or year-distance, the algorithm may randomize between those nearest matches to keep the Scramble output broader while staying within the same recommendation logic.
 
 Maximum output consists of **1 recommendation**
 

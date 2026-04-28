@@ -3,6 +3,7 @@ package homecinema.dto;
 import homecinema.model.enums.FilmRegion;
 import lombok.Data;
 
+import java.math.BigDecimal; // Importeer BigDecimal
 import java.util.List;
 
 @Data
@@ -26,4 +27,7 @@ public class FilmDTO {
     private String format;
     private String type;
     private List<String> stills;
+    private BigDecimal userRating; // Bestaande persoonlijke rating
+    private BigDecimal averageCommunityRating; // Nieuw: gemiddelde community rating
+    private Integer communityRatingCount; // Nieuw: aantal community ratings
 }

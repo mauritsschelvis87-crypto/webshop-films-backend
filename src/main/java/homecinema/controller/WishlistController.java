@@ -5,6 +5,7 @@ import homecinema.model.Film;
 import homecinema.model.User;
 import homecinema.repository.FilmRepository;
 import homecinema.repository.UserRepository;
+import homecinema.service.FilmService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -21,10 +22,12 @@ public class WishlistController {
 
     private final UserRepository userRepository;
     private final FilmRepository filmRepository;
+    private final FilmService filmService;
 
-    public WishlistController(UserRepository userRepository, FilmRepository filmRepository) {
+    public WishlistController(UserRepository userRepository, FilmRepository filmRepository, FilmService filmService) {
         this.userRepository = userRepository;
         this.filmRepository = filmRepository;
+        this.filmService = filmService;
     }
 
     @GetMapping("/{userId}")
@@ -89,6 +92,7 @@ public class WishlistController {
 
     private List<Film> enrichWishlistWithRatings(User user) {
         user.getWishlist().forEach(film -> film.setUserRating(user.getFilmRatings().get(film.getId())));
+        filmService.enrichWithCommunityRatings(user.getWishlist());
         return user.getWishlist();
     }
 

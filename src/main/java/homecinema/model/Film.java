@@ -48,4 +48,10 @@ public class Film extends BaseEntity {
 
     @Transient
     private BigDecimal userRating;
+
+    @Transient
+    private BigDecimal averageCommunityRating;
+
+    @Transient
+    private Integer communityRatingCount;
 }
