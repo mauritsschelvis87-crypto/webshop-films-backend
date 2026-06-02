@@ -53,7 +53,7 @@ public class SecurityConfig {
                 )
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
-                        .requestMatchers("/api/auth/**", "/api/films/**", "/api/media-assets/**", "/error").permitAll()
+                        .requestMatchers("/api/auth/**", "/api/films/**", "/api/directors/**", "/api/boxsets/**", "/api/media-assets/**", "/error").permitAll()
                         .anyRequest().authenticated()
                 )
                 .authenticationProvider(authenticationProvider)
